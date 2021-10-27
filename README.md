@@ -1,7 +1,7 @@
 # Group_3_Travel-Agency-Management-System
-## Computerizes the different operations in travel agencies through an easy-to-use automated booking system
+### _Computerizes the different operations in travel agencies through an easy-to-use automated booking system_
 
-**SOFTWARE REQUIREMENTS**
+## **SOFTWARE REQUIREMENTS**
 
 1. Users will be able to login into the portal using their credentials. If the users provide invalid credentials, the login will be unsuccessful. 
 2. Once the login is successful, a list of packages (flight, hotel accomodation and rental car) along with the cost offered by the travel agency, will be displayed to the user. 
