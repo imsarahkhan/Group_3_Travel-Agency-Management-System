@@ -25,5 +25,5 @@
 *
 **/
 
-extern int book_car (int booking_id, float price_flight)
+extern int book_car (int booking_id, float price_flight);
 #endif
