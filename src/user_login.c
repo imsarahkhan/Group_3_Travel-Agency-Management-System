@@ -31,33 +31,41 @@
 * @return Returns 0 on successful login and returns 1 on unsuccessful login
 *
 **/
-int user_login(char username[30],char password[30],char usrnm[30],char pwd[30]) {
+void user_login() {
+    
     FILE *fp;
-    int user_status = 0;
-    int response_code;
+    int age, opt, user_status = 0;
+    char pwd2[30];
     struct client client_profile;
+    char usrnm[30], pwd[30];
+    
+    printf("\nEnter your username:\t");
+    gets(usrnm);
+    
+    printf("Enter your password:\t");
+    gets(pwd);
 
     fp = fopen("Clients.txt", "r");
+
     while (fread(&client_profile, sizeof(struct client), 1, fp)) {
+        
         if (!strcmp(client_profile.username, usrnm)) {
             
             if (!strcmp(client_profile.password, pwd)) {
                 
-                response_code = 1;
-
-            } else {
+                printf("\n\t Welcome %s to Travel Agency Management System !!!\n", client_profile.fullName);
+                STATUS = 1;
+             } else {
                 
-                response_code =2;
-            }
+                printf("\n\nInvalid Password!");
+               }
             
             user_status = 1;
         }
     }
     if (!user_status) {
         
-        response_code = 3;
+        printf("\n\nUser not found. Please register into the system");
     }
-    
     fclose(fp);
-    return response_code;
 }
