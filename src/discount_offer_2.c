@@ -23,7 +23,8 @@
 /**
 * @brief This function will calaculate the fare after a discount of 15% is applied 
 *
-* to tjhe trips booked
+* to the trips booked for all 3 features, that is, flight, hotel & car. 
+*
 *
 * 
 *
