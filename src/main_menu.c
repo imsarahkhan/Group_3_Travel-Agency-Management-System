@@ -40,7 +40,7 @@
 
 int main_menu() {
     int option;
-    char flag;
+    int choice;
 
     printf("\n================================================================\n");
     printf("\t\t\t\t\t\t  MAIN MENU");
@@ -50,7 +50,6 @@ int main_menu() {
     printf("\nPlease select one feature from the following to proceed:\n");
     printf("\n\t\t 1 - Book Trip \n\t\t 2 - View/Print Trip \n\t\t 3 - Cancel Trip \n\t\t 4 - User Logout \n");
     scanf("%d", &option);
-    a:
     switch(option){
         case 1:
             book_trip();
@@ -67,14 +66,17 @@ int main_menu() {
         default:
             printf("ERROR!!! Not a valid input!\n Restart!");
             scanf("%d",&option);
-            goto a;
     }
 
-    printf("\nTo CONTINUE...Enter 'Y'\n");
-    scanf("%c", &flag);
-    if(flag == 'Y' || flag =='y'){
-        main_menu();
+    printf("\nDo you wish to : \n\t\t 1 - CONTINUE \n\t\t 2 - EXIT \n");
+    scanf("%d", &choice);
+    switch(choice){
+        case 1:
+            main_menu();
+            break;
+        case 2:
+            exit_system();
+            break;
     }
-
     return 0;
 }
