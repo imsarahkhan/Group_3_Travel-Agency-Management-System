@@ -1,0 +1,33 @@
+BOOKING ID : 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+You have booked a flight from Toronto to Ottawa
+
+ ======================Passenger 1====================
+Name: 	 kavya ram vc
+Email: 	 kavyaram08@gmail.com
+Phone Number: 	164794989597
+
+---------------------------------------------------------------------
+Your total fare for the flight is $400.000000
+---------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		YOUR HOTEL BOOKING DETAILS ARE AS FOLLOWS:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+You have booked a hotel room in Holiday Inn
+
+ You have booked the hotel for 2 days.
+
+---------------------------------------------------------------------
+Your total fare for the hotel is $200.000000
+---------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Your total fare now for the trip is $600.000000
+You have been offered 5 percent discount !!!
+Your final amount to pay is $570.000000
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
