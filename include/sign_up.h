@@ -22,5 +22,5 @@
 * @return Returns 0 on successful registration and returns 1 on unsuccessful registration
 *
 **/
-extern int sign_up();
+extern int sign_up(char username, char password);
 #endif
