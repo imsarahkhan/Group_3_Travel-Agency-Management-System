@@ -1,5 +1,5 @@
 /**
- * @file view_brochure.c
+ * @file view_brochure.h
  *
  * @This provides IDs for flights,hotel and car
  *
