@@ -26,5 +26,5 @@
 * @return Returns 0 on successful login and returns 1 on unsuccessful login
 *
 **/
-extern int user_login();
+extern void user_login();
 #endif 
