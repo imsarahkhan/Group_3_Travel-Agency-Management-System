@@ -1,8 +1,7 @@
 /**
  * @file view_brochure.c
  *
- * @This provides IDs for flights,hotel and car
- *
+ * @brief This dislays list of packages(flights,hotel and car)
  *
  * 
  *
@@ -12,14 +11,14 @@
 #include"../include/view_brochure.h"
 
 /**
-* @brief This function This function contains list of packages (routes, hotels, rental cars) 
+* @details This function contains list of packages (routes, hotels, rental cars) 
 *
 * along with their cost offered by the Travel agency
 *
-* @param[in] The function doesn't takes inputs
+* @param[in] None
 *
 *
-* @param[out] This function doesn't return any values
+* @param[out] None
 *
 *
 **/

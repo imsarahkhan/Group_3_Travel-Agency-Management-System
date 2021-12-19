@@ -1,7 +1,7 @@
 /**
  * @file individual_route_prices.c
  *
- * @This provides the routes and prices for each flight trips
+ * @brief This provides the ID and prices for all trip services (flight,hotel and car)
  *
  *
  * 
@@ -12,19 +12,18 @@
 #include <global_variable.h>
 
 /**
-* @brief This function takes the hotel ID shown in the view_brochure()
+* @details This function takes the route ID (flights) shown in the view_brochure()
 *
 * and returns the necessary prices for each flight trips
 *
-* 
 *
-* @param[in] The function takes input as flight ID and file pointer to write
+* @param[in] The function takes input as route ID associated with a flight routes and file pointer to write
 *
-* details to file created
+* details to the file created
 *
-* @param[out] This function returns the price for each flight trips
+* @param[out] This function returns the price for each flight trip
 *
-*
+* @return Returns 0 if invalid route ID or else returns flight price
 **/
 
 float flight (int route_id, FILE *p_fptr1) {
@@ -35,43 +34,43 @@ float flight (int route_id, FILE *p_fptr1) {
         fputs("\nYou have booked a flight from Toronto to Ottawa\n",p_fptr1);
         flight_price = 400;
         g_count_1++;
-    }else if (route_id == 102) {
+    } else if (route_id == 102) {
         fputs("\nYou have booked a flight from Toronto to Montreal\n",p_fptr1);
         flight_price = 450;
         g_count_2++;
-    }else if (route_id == 103) {
+    } else if (route_id == 103) {
         fputs("\nYou have booked a flight from Toronto to Vancouver\n",p_fptr1);
         flight_price = 800;
         g_count_3++;
-    }else if (route_id == 104) {
+    } else if (route_id == 104) {
         fputs("\nYou have booked a flight from Toronto to Calgary\n",p_fptr1);
         flight_price = 600;
         g_count_4++;
-    }else if (route_id == 105) {
+    } else if (route_id == 105) {
         fputs("\nYou have booked a flight from Ottawa to Montreal\n",p_fptr1);
         flight_price = 600;
         g_count_5++;
-    }else if (route_id == 106) {
+    } else if (route_id == 106) {
         fputs("\nYou have booked a flight from Ottawa to Vancouver\n",p_fptr1);
         flight_price = 300;
         g_count_6++;
-    }else if (route_id == 107) {
+    } else if (route_id == 107) {
         fputs("\nYou have booked a flight from Ottawa to Calgary\n",p_fptr1);
         flight_price = 200;
         g_count_7++;
-    }else if (route_id == 108) {
+    } else if (route_id == 108) {
         fputs("\nYou have booked a flight from Montreal to Vancouver\n",p_fptr1);
         flight_price = 350;
         g_count_8++;
-    }else if (route_id == 109) {
+    } else if (route_id == 109) {
         fputs("\nYou have booked a flight from Montreal to Calgary\n",p_fptr1);
         flight_price = 500;
         g_count_9++;
-    }else if (route_id == 110) {
+    } else if (route_id == 110) {
         fputs("\nYou have booked a flight from Vancouver to Calgary\n",p_fptr1);
         flight_price = 150;
         g_count_10++;
-    }else {
+    } else {
         return 0;
     }
     return flight_price;
@@ -81,17 +80,17 @@ float flight (int route_id, FILE *p_fptr1) {
 /**
 * @brief This function takes the hotel ID shown in the view_brochure()
 *
-* and returns the necessary prices for each hotel accomodation
+* and returns the necessary prices for each hotel accommodation
 *
 * 
 *
-* @param[in] The function takes input as hotel ID and file pointer to write
+* @param[in] The function takes input as hotel ID and file pointer to write the
 *
-* details to file created
+* details to the file created
 *
-* @param[out] This function returns the price for each hotel accomodation
+* @param[out] This function returns the price for each hotel accommodation
 *
-*
+* @return Returns 0 if invalid hotel ID or else returns hotel price
 **/
 
 float hotel (int hotel_id,  FILE *p_fptr2) {
@@ -118,7 +117,7 @@ float hotel (int hotel_id,  FILE *p_fptr2) {
 
 
 /**
-* @brief This function takes the Car route ID shown in the view_brochure()
+* @brief This function takes the car route ID shown in the view_brochure()
 *
 * and returns the necessary prices for two rental car services
 *
@@ -126,11 +125,11 @@ float hotel (int hotel_id,  FILE *p_fptr2) {
 *
 * @param[in] The function takes input as car route ID and file pointer to write
 *
-* details to file created
+* details to the file created
 *
 * @param[out] This function returns the price for each rental car services
 *
-*
+* @return returns 0 if invalid car ID and or else returns car price
 **/
 
 float car(int car_id, FILE *p_fptr3) {
@@ -139,12 +138,10 @@ float car(int car_id, FILE *p_fptr3) {
     if (car_id == 301) {
         fputs("\nYou have booked a rental car service with Canada Car Rental\n",p_fptr3);
         car_price = 30;
-    }
-    else  if (car_id == 302) {
+    } else  if (car_id == 302) {
         fputs("\nYou have booked a rental car service with Enterprise Rental\n",p_fptr3);
         car_price = 60;
-    }
-    else{
+    } else {
         return 0;
     }
     return car_price;

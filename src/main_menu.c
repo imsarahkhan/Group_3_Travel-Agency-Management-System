@@ -1,7 +1,7 @@
 /**
  * @file main_menu.c
  *
- * @This provides the main menu of the travel management system
+ * @brief This function displays features of the Travel Management System
  *
  *
  * 
@@ -16,19 +16,19 @@
 
 
 /**
-* @brief contains all the details regarding the trip are displayed 
+* @details contains all the details regarding the trip that are displayed 
 *
-* under the main menu using the view_brochure() sub-function and also 
+* using the view_brochure() sub-function and also the user have the option 
 *
-* the user have the option of choosing the different services offered 
+* of choosing the different services offered by the Travel management system.
 *
-* by the Travel management system
-*
-* @param[in] This function doesn't takes inputs
+* @param[in] NONE
 *
 *
-* @param[out] This function doesn't return any values
 *
+* @param[out] NONE
+*
+* 
 *
 **/
 

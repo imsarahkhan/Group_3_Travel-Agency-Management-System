@@ -1,7 +1,7 @@
 /**
  * @file main.c
  *
- * @This is the main function for the travel management system
+ * @brief This is the main function for the Travel Agency Management System
  *
  *
  * 
@@ -18,17 +18,17 @@
 
 
 /**
-* @brief This function takes the main functionality of the travel management system where it asks
+* @details This function takes the main functionality of the travel management system where it asks
 *
 * users to provide a choice of services for the accessing the trips.
 *
 * 
 *
-* @param[in] The function takes no input
+* @param[in] NONE
 *
 * 
 *
-* @param[out] This function returns the main choices as provided by the user
+* @param[out] NONE
 *
 *
 **/
@@ -66,21 +66,18 @@ void main (void) {
 
                 printf("\nConfirm your password:\t");
                 gets(password);
-                if(!strcmp(client_profile.password,password))
+                if (!strcmp(client_profile.password,password))
                 {
                     int response_code = sign_up(client_profile);
-                    if(response_code == 0)
+                    if (response_code == 0)
                     {
                         printf("\n\nSomething went wrong. Please try again");
-                    }
-                    else
-                    {
+                    } else {
                         status = true;
                         printf("\n\nUser has been successfully registered");
                     }
 
-                }
-                else{
+                } else {
                     printf("\n\nPassword entered do not match.Please re-register");
                 }
                 break;
@@ -93,15 +90,13 @@ void main (void) {
                 printf("Enter your password:\t");
                 gets(password);
                 int response_code = user_login(username, password);
-                if(response_code == 1)
+                if (response_code == 1)
                 {
                     printf("\n\t Welcome %s to Travel Agency Management System !!!\n", username);
                     status = true;
-                }
-                else if(response_code == 2)
-                {
+                } else if (response_code == 2) {
                     printf("\n\nUser not found. Please register into the system");
-                } else{
+                } else {
                     printf("\n\nInvalid Password");
                 }
                 break;
@@ -111,7 +106,7 @@ void main (void) {
                 scanf("%d",&option);
                 fgetc(stdin);
         }
-        if(status == true) {
+        if (status == true) {
             main_menu();
         }
     }
