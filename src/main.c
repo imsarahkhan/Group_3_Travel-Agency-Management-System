@@ -36,8 +36,8 @@
 void main (void) {
     int option;
     char username[30], password[30];
-
-    bool status = false;
+    char password_2[20];
+    int status = 0;
     struct client client_profile;
     while (true)
     {
@@ -65,15 +65,15 @@ void main (void) {
                 gets(client_profile.password);
 
                 printf("\nConfirm your password:\t");
-                gets(password);
-                if (!strcmp(client_profile.password,password))
+                gets(password_2);
+                if (!strcmp(client_profile.password,password_2))
                 {
                     int response_code = sign_up(client_profile);
                     if (response_code == 0)
                     {
                         printf("\n\nSomething went wrong. Please try again");
                     } else {
-                        status = true;
+                        status = 1;
                         printf("\n\nUser has been successfully registered");
                     }
 
@@ -93,10 +93,12 @@ void main (void) {
                 if (response_code == 1)
                 {
                     printf("\n\t Welcome %s to Travel Agency Management System !!!\n", username);
-                    status = true;
+                    status = 1;
                 } else if (response_code == 2) {
+                    status = 0;
                     printf("\n\nUser not found. Please register into the system");
                 } else {
+                    status = 0;
                     printf("\n\nInvalid Password");
                 }
                 break;
@@ -106,7 +108,7 @@ void main (void) {
                 scanf("%d",&option);
                 fgetc(stdin);
         }
-        if (status == true) {
+        if (status == 1) {
             main_menu();
         }
     }

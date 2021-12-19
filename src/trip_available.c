@@ -20,7 +20,7 @@
 * 
 * of the trip for the next user to book or not.
 *
-* @param[in] None
+* @param[in] NONE
 *
 *
 *

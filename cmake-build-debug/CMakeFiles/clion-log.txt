@@ -1,4 +1,10 @@
-C:\Users\kavya\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System
+C:\Users\kavya\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System
+-- The C compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug

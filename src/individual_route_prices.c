@@ -78,7 +78,7 @@ float flight (int route_id, FILE *p_fptr1) {
 
 
 /**
-* @brief This function takes the hotel ID shown in the view_brochure()
+* @details This function takes the hotel ID shown in the view_brochure()
 *
 * and returns the necessary prices for each hotel accommodation
 *
@@ -117,7 +117,7 @@ float hotel (int hotel_id,  FILE *p_fptr2) {
 
 
 /**
-* @brief This function takes the car route ID shown in the view_brochure()
+* @details This function takes the car route ID shown in the view_brochure()
 *
 * and returns the necessary prices for two rental car services
 *

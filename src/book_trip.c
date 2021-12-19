@@ -17,6 +17,8 @@
 #include"../include/individual_route_prices.h"
 #include"../include/total_fare.h"
 #include"../include/add_passengers.h"
+#include"../include/book_trip.h"
+#include"../include/view_brochure.h"
 
 /**
 * @details This function will ask the user to enter the flight route ID and will ask user to continue further if
@@ -74,12 +76,15 @@ int book_trip () {
         scanf("%d", &choice);
         switch(choice){
             case 1:
+                view_brochure();
                 book_hotel(g_booking_id, total_f);
                 break;
             case 2:
+                view_brochure();
                 book_car(g_booking_id, total_f);
                 break;
             case 3:
+                view_brochure();
                 book_hotel_car(g_booking_id, total_f);
                 break;
             case 4:

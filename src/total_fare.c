@@ -127,7 +127,7 @@ float total_fare_trip (float total_flight, float total_hotel, float total_car) {
 
 
 /**
-* @brief This function will calculate the fare after a discount of 5% is applied 
+* @details This function will calculate the fare after a discount of 5% is applied 
 *
 * to the trips booked for 2 features, that is, flight & hotel or flight & car. 
 *
@@ -151,7 +151,7 @@ float discount_offer_1 (float total_trip) {
 
 
 /**
-* @brief This function will calaculate the fare after a discount of 15% is applied 
+* @details This function will calaculate the fare after a discount of 15% is applied 
 *
 * to the trips booked for all 3 features, that is, flight, hotel & car. 
 *

@@ -30,7 +30,7 @@ int sign_up(struct client client_profile){
 
     FILE *fp;
     int response_code = 0;
-    fp = fopen("Clients.txt","a");
+    fp = fopen("clients.txt","a");
     int temp = fwrite(&client_profile,sizeof(struct client),1,fp);
     if(temp != 0) {
         response_code = 1;

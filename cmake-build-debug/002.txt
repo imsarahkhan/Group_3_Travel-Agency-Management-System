@@ -1,55 +1,18 @@
-BOOKING ID : 1
+Your booking id is 2
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-You have booked a flight from Toronto to Ottawa
+You have booked a flight from Toronto to Montreal
 
  ======================Passenger 1====================
-Name: 	 kavya
-Email: 	 kavya
-Phone Number: 	12341
+Name: 	 khsghs
+Email: 	 hsg
+Phone Number: 	8217673
 
 ---------------------------------------------------------------------
-Your total fare for the flight is $400.00
----------------------------------------------------------------------
-Your booking id is 1
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-You have booked a flight from Toronto to Ottawa
-
- ======================Passenger 1====================
-Name: 	 kavya'
-Email: 	 kaya@gmaio,cin
-Phone Number: 	278363
-
- ======================Passenger 2====================
-Name: 	 sarah
-Email: 	 sarahg@gmail.com
-Phone Number: 	89728673
-
----------------------------------------------------------------------
-Your total fare for the flight is $800.00
----------------------------------------------------------------------
-Your booking id is 1
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-You have booked a flight from Toronto to Ottawa
-
- ======================Passenger 1====================
-Name: 	 kjsh
-Email: 	 kjashj
-Phone Number: 	27
-
----------------------------------------------------------------------
-Your total fare for the flight is $400.00
+Your total fare for the flight is $450.00
 ---------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		YOUR HOTEL BOOKING DETAILS ARE AS FOLLOWS:
@@ -64,27 +27,11 @@ Your total fare for the hotel is $200.00
 ---------------------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Your total fare now for the trip is $600.00
+Your total fare now for the trip is $650.00
 You have been offered 5 percent discount !!!
-Your final amount to pay is $570.000000
+Your final amount to pay is $617.500000
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Your booking id is 1
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-You have booked a flight from Toronto to Montreal
-
- ======================Passenger 1====================
-Name: 	 kjhdgd
-Email: 	 dkhdbkjd
-Phone Number: 	875
-
----------------------------------------------------------------------
-Your total fare for the flight is $450.00
----------------------------------------------------------------------
-Your booking id is 1
+Your booking id is 2
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
@@ -93,10 +40,38 @@ Your booking id is 1
 You have booked a flight from Toronto to Ottawa
 
  ======================Passenger 1====================
-Name: 	 ksjk
-Email: 	 kxhgchd
-Phone Number: 	1725
+Name: 	 ed
+Email: 	 derf
+Phone Number: 	8376
 
 ---------------------------------------------------------------------
 Your total fare for the flight is $400.00
 ---------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		YOUR HOTEL BOOKING DETAILS ARE AS FOLLOWS:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+You have booked a hotel room in Ritz-Carlton
+
+ You have booked the hotel for 5 days.
+
+---------------------------------------------------------------------
+Your total fare for the hotel is $625.00
+---------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		YOUR CAR BOOKING DETAILS ARE AS FOLLOWS:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+You have booked a rental car service with Canada Car Rental
+
+ You have booked the car for 3 days.
+
+---------------------------------------------------------------------
+Your total fare for the car is $90.000000
+---------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Your total fare now for the trip is $1115.00
+You have been offered 15 percent discount !!!
+Your final amount to pay is $947.750000
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System
+# Install script for directory: /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include -I/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src
+C_INCLUDES = -I/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/include -I/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/src
 
 C_FLAGS = -g -std=gnu99
 

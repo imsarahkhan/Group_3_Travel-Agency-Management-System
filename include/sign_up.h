@@ -1,7 +1,7 @@
 /**
  * @file sign_up.h
  *
- * @function implements new users to enroll themselves into the Travel Management system.
+ * @brief function implements new users to enroll themselves into the Travel Management system.
  *
  *
  * 
@@ -10,17 +10,17 @@
 #ifndef _SIGN_UP_H_
 #define _SIGN_UP_H_
 /**
-* @brief This function will register new user to the system
+* @details This function will register new user to the system by collecting the information from users
 *
-* @param[in] The function takes input of user_name and password
-*
-* as input from the user in input terminal
+* @param[in] The function takes user information into client_profile as variable type of structure
 *
 *
-* @param[out] This function returns response code based on the user inputs
 *
-* @return Returns 0 on successful registration and returns 1 on unsuccessful registration
+* @param[out] This function returns response code according to the status of user inputs
+*
+* @return Returns 1 on successful registration and returns 0 on unsuccessful registration
 *
 **/
-extern int sign_up(struct client client_profile);
+
+int sign_up(struct client client_profile);
 #endif

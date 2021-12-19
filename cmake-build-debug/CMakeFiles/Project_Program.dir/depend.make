@@ -9,9 +9,11 @@ CMakeFiles/Project_Program.dir/src/book_trip.c.o: \
  ../include/global_variable.h \
  ../include/trip_available.h \
  ../include/add_passengers.h \
+ ../include/book_trip.h \
  ../include/individual_route_prices.h \
  ../include/total_fare.h \
  ../include/validate_id.h \
+ ../include/view_brochure.h \
  ../src/book_trip.c
 CMakeFiles/Project_Program.dir/src/cancel_trip.c.o: \
  ../src/cancel_trip.c

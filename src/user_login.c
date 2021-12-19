@@ -33,7 +33,7 @@ int user_login(char username[30],char password[30]) {
     int user_status = 0;
     struct client client_profile;
 
-    fp = fopen("Clients.txt", "r");
+    fp = fopen("clients.txt", "r");
 
     while (fread(&client_profile, sizeof(struct client), 1, fp)) {
         
