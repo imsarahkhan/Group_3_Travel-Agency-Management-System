@@ -6,10 +6,6 @@
 * [Application Overview](#application-overview)
 * [File Organization](#file-organization)
 * [Getting Started](#getting-started)
-    * [1. Dependencies](#1-dependencies)
-    * [2. Building the Software](#2-building-the-software)
-    * [3. Testing the Software](#3-testing-the-software)
-    * [4. Running the Main Application](#4-running-the-main-application)
 * [Documentation](#documentation)
 
 ## Team Members
