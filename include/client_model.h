@@ -1,6 +1,6 @@
  
 /**
- * @file book_trip.h
+ * @file client_model.h
  * @brief This structure client stores the details of the client 
  */
 
