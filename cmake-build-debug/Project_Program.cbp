@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project_Program"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Program">
+				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Project_Program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include"/>
+					<Add directory="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_Program"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Program/fast">
+				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Project_Program.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include"/>
+					<Add directory="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_Program/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/book_trip.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/cancel_trip.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/client_model.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/global_variable.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/individual_route_prices.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/main_menu.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/sign_up.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/total_fare.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/trip_available.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/user_login.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/validate_id.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_brochure.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_print_trip.h">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/add_passenger.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/book_trip.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/cancel_trip.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/global_variables.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/individual_route_prices.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/main.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/main_menu.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/sign_up.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/total_fare.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/trip_available.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/user_login.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/validate_id.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/view_brochure.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/view_print_trip.c">
+			<Option target="Project_Program"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

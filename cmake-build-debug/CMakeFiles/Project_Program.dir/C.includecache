@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/book_trip.h
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/cancel_trip.h
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_brochure.h
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_print_trip.h
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/main_menu.c
+stdio.h
+-
+../include/view_brochure.h
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_brochure.h
+../include/book_trip.h
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/book_trip.h
+../include/view_print_trip.h
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_print_trip.h
+../include/cancel_trip.h
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/cancel_trip.h
+
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/src/view_brochure.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+../include/view_brochure.h
+/cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/include/view_brochure.h
+
