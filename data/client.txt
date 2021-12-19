@@ -1,0 +1,5 @@
+|      fullName      |          email             |   username |  password  |    phone   |
+
+|  Kavya Chellaram   |  Kavyaram08@gmail.com      |  kavya_1   | Project@22 | 6479797393 |
+|  Ramya Thammineni  |  ramyathammineni@gmail.com |  ramya_00  | Krishna_12 | 3439887866 |
+|  Sarah Khan        |  imsarahkhan@gmail.com     |  imsarahk  | sarah_12   | 5678239016 | 
