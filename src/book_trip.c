@@ -252,11 +252,11 @@ int book_trip () {
         scanf("%d", &route_id);
     }
     int valid_2 = validate_route_id(route_id);
-    g_booking_id++;
-    sprintf(filename, "%03d.txt", g_booking_id);
-    p_fptr_t = fopen(filename,"a");
 
     if(valid_1!=0 && valid_2!=0){
+        g_booking_id++;
+        sprintf(filename, "%03d.txt", g_booking_id);
+        p_fptr_t = fopen(filename,"a");
         fprintf(p_fptr_t,"BOOKING ID : %d\n\n", g_booking_id);
         fputs("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_t);
         fputs("\t\tYOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:\n",p_fptr_t);
