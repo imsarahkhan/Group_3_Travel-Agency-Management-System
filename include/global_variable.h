@@ -1,5 +1,5 @@
 /**
- * @file global_variables.h
+ * @file global_variable.h
  *
  * @brief This contains all the global variables required for the Travel Management System
  *

@@ -1,6 +1,6 @@
 
 /**
- * @file add_passengers.c
+ * @file add_passenger.c
  *
  * @brief This takes the information of passengers travelling in the trip
  *
