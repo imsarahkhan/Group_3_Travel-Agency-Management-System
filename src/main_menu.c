@@ -59,7 +59,7 @@ int main_menu() {
             user_logout();
             break;
         default:
-            printf("ERROR!!! Not a valid input!\n Restart!");
+            printf("ERROR!!! Not a valid input!\n");
             scanf("%d",&option);
     }
 
