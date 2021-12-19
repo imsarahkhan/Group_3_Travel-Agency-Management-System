@@ -1,4 +1,0 @@
-C:\Users\kavya\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug
