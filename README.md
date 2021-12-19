@@ -51,7 +51,7 @@ The following file structure is used to organize files for this application:
 
 ### Installation
 
-Complete instructions regarding installation of this project can be found here Travel Agency Management System [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
+Complete instructions regarding installation of this project can be found here: [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
 
 ### Compile and Build Instructions
 
