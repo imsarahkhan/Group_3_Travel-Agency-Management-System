@@ -63,7 +63,7 @@ int main_menu() {
             scanf("%d",&option);
     }
 
-    printf("\nDo you wish to : \n\t\t 1 - CONTINUE \n\t\t 2 - EXIT \n");
+    printf("\nEnter: \n\t\t 1 - CONTINUE \n\t\t 2 - EXIT \n");
     scanf("%d", &choice);
     switch(choice){
         case 1:
