@@ -63,7 +63,6 @@ Complete instructions regarding installation of this project can be found here T
 
 ### Test Application
 
-To run the test files, execute the application in the `bin` directory with `UNO-Card-Game_Test`. All test results are logged to the file 'test_log' in the same directory.
 
 ## Documentation
 
