@@ -30,8 +30,8 @@ Through this project, we intend to develop an application program for travel age
 * View a list of packages (flight, hotel accommodation, and rental car) along with the cost offered by the travel agency
 * Book flight, hotel accommodation, and rental car by using features like book trip, view/print trip, or cancel the trip.
 * Users will be offered a discount if they choose more than one type of booking. 
-* Users can view and print their booked trip at any time of their convenience.
-* Users can cancel their booked trip without any additional charges.
+* Users can view and print their booked trip at any time of their convenience using their booking ID.
+* Users can cancel their booked trip without any additional charges using their booking ID.
 
 ## File Organization
 
@@ -51,7 +51,7 @@ The following file structure is used to organize files for this application:
 
 ### Installation
 
-Complete instructions regarding installation of this project can be found here Travel Agency Management System User Documentation 
+Complete instructions regarding installation of this project can be found here Travel Agency Management System [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
 
 ### Compile and Build Instructions
 
@@ -66,8 +66,8 @@ Complete instructions regarding installation of this project can be found here T
 ## Documentation
 
 * All documentation regarding this application can be found in the project's GitHub repository
-* User documentation can be found in the Github repository at Travel Agency Management System User Documentation
-* Developer documentation can be found in the Github repository at Travel Agency Management System Developer Documentation
+* User documentation can be found in the Github repository at Travel Agency Management System [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
+* Developer documentation can be found in the Github repository at Travel Agency Management System [Developer Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Developer-Documentation)
 
 ## License 
 This project is licensed under the GPL 2.0 License. 
