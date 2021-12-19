@@ -46,7 +46,10 @@ The following file structure is used to organize files for this application:
   * /include - Contains the header files for the test files.       
   * /src - Contains the definitions for all unit tests.  
     * test.c - Main file that calls the test functions in other files.
-## Installation
+
+## Getting Started
+
+### Installation
 
 Complete instructions regarding installation of this project can be found here Travel Agency Management System User Documentation 
 
