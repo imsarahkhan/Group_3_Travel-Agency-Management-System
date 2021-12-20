@@ -81,7 +81,7 @@ The instructions below have been verified to work on Windows using Cygwin and gc
 * All documentation regarding this application can be found in the project's GitHub repository.
 * User documentation can be found in the Github repository at [**Travel Agency Management System User Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
 * Developer documentation can be found in the Github repository at [**Travel Agency Management System Developer Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Developer-Documentation)
-* Doxygen documentation can be found in the Github repository at [**Travel Agency Management System Developer Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Doxygen-Documentation)
+* Doxygen documentation can be found in the Github repository at [**Travel Agency Management System Doxygen Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Doxygen-Documentation)
 
 ## License 
 This project is licensed under the GPL 2.0 License. 
