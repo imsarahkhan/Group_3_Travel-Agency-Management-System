@@ -63,8 +63,7 @@ Complete instructions regarding installation of Travel Agency Management System 
 The instructions below have been verified to work on Windows using Cygwin and gcc
 
 * `Makefile` (default) Will build the application and run the application.
-* 
-
+* `make clean` Will remove all build artifacts.
 
 ### Run Application
 
@@ -72,6 +71,7 @@ The instructions below have been verified to work on Windows using Cygwin and gc
 
 ### Test
 
+* To run the test files, execute the application in the `test` directory with `Program_Test`.
 
 ## Documentation
 
