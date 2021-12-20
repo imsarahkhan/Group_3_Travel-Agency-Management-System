@@ -49,24 +49,19 @@ The following file structure is used to organize files for this application:
   * /include - Contains the header files for the test files.       
   * /src - Contains the definitions for all unit tests.  
     * test.c - Main file that calls the test functions in other files.
-| Main Folder Structure | Description                                                                                                                                             |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                                  |
-| `/cmake-build-debug`  | Contains the files created after executing the application.                                                                                             |
-| `/include`            | Contains all Header files used in the application.                                                                                                       |
-| `/doc`                | Contains the designed flowchart for the application.                                                                                                        |
-| `/html`               | Doxygen file.                                                                                                                                       |
-| `/latex`              | Doxygen file.                                                                                                              |
-| `/xml`                | Doxygen file.                                            |
-| `/src`                | Contains the definition for all functions -  Function sources.                                                      |
-| `/test`               | Contains all test sources and required data for testing.                                                                                                 |
-| `/data`               | Contains the log files generated during testing.                                                                               |
-| `/include`            | Contains the header files for the test files.                                         |
-| `/src`                | Contains the definitions for all unit tests.                                                                          |
-| `.gitignore`          | Specifies which files should be ignored by git.                                     |
-| `LICENSE`             | License of the application.                                                                                                                             |
-| `README.md`           | Project's ReadMe file.                                                                                                                                  |
-
-
+| Main Folder Structure |                        Description                             |
+|-----------------------|----------------------------------------------------------------|                 
+| `/cmake-build-debug`  | Contains the files created after executing the application.    |
+| `/include`            | Contains all Header files used in the application.             |
+| `/doc`                | Contains the designed flowchart for the application.           |
+| `/html`               | Doxygen file.                                                  |
+| `/latex`              | Doxygen file.                                                  |
+| `/xml`                | Doxygen file.                                                  |
+| `/src`                | Contains the definition for all functions -  Function sources. |
+| `/test`               | Contains all test sources and required data for testing.       |
+| `.gitignore`          | Specifies which files should be ignored by git.                |
+| `LICENSE`             | License of the application.                                    |
+| `README.md`           | Project's ReadMe file.                                         |
 
 ## Getting Started
 
