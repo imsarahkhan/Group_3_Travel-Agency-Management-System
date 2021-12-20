@@ -45,7 +45,7 @@ void main (void) {
         printf("\t\t\t Travel Agency Management System");
         printf("\n================================================================\n");
         printf("\n****** Search Flights, Hotels & Rental Cars ******\n\n");
-        printf("ENTER: \n\t\t1. SIGN UP \n\t\t2. LOGIN\n");
+        printf("ENTER: \n\t\t1. SIGN UP \n\t\t2. LOGIN \n");
         scanf("%d",&option);
         fgetc(stdin);
 
@@ -102,7 +102,6 @@ void main (void) {
                     printf("\n\nInvalid Password");
                 }
                 break;
-
             default:
                 printf("Invalid Input!\n Try again: ");
                 scanf("%d",&option);

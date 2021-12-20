@@ -43,7 +43,7 @@ void view_print_trip () {
     int exist = stat(filename,&buffer);
     if (exist == 0) {
         FILE *p_fptr = fopen(filename, "r");
-        printf("\n Your car details are ready to be printed:\n");
+        printf("\n Your trip details are ready to be printed:\n");
         printf("===============================================================\n");
         str = fgetc(p_fptr);
         while (str != EOF) {

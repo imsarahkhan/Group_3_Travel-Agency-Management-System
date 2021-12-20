@@ -42,7 +42,7 @@ int book_trip () {
     char str;
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  Book your Flight");
+    printf("                         Book your Flight");
     printf("\n================================================================\n");
     printf("\nPlease enter the Route ID you wish to travel:\n");
     scanf("%d", &route_id);
@@ -57,7 +57,7 @@ int book_trip () {
     if(valid_1!=0 && valid_2!=0){
 		g_booking_id++;
 		sprintf(filename, "%03d.txt", g_booking_id);
-		p_fptr_t = fopen(filename,"a");
+		p_fptr_t = fopen(filename,"w");
 
         fprintf(p_fptr_t,"Your booking id is %d\n\n", g_booking_id);
         fputs("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_t);
@@ -135,7 +135,7 @@ int book_hotel (int booking_id,float price_flight) {
     char filename[20];
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  Book your Hotel");
+    printf("                         Book your Hotel                            ");
     printf("\n================================================================\n");
     printf("\nPlease enter the Hotel ID you wish to stay:\n");
     scanf("%d", &hotel_id);
@@ -158,7 +158,7 @@ int book_hotel (int booking_id,float price_flight) {
         p_fptr_h = fopen(filename,"a");
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_h);
         fprintf(p_fptr_h,"Your total fare now for the trip is $%.2f", total_trip);
-        fprintf(p_fptr_h, "\nYou have been offered 5 percent discount !!!\nYour final amount to pay is $%f", discount);
+        fprintf(p_fptr_h, "\nYou have been offered 5 percent discount !!!\nYour final amount to pay is $%.2f", discount);
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_h);
         fclose (p_fptr_h);
 
@@ -193,7 +193,7 @@ int book_car (int booking_id, float price_flight) {
     char filename[20];
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  Book your car");
+    printf("                         Book your car");
     printf("\n================================================================\n");
     printf("\nPlease enter the car ID you wish to rent:\n");
     scanf("%d", &car_id);
@@ -216,7 +216,7 @@ int book_car (int booking_id, float price_flight) {
         p_fptr_c = fopen(filename,"a");
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_c);
         fprintf(p_fptr_c,"Your total fare now for the trip is $%.2f", total_trip);
-        fprintf(p_fptr_c, "\nYou have been offered 5 percent discount !!!\nYour final amount to pay is $%f", discount);
+        fprintf(p_fptr_c, "\nYou have been offered 5 percent discount !!!\nYour final amount to pay is $%.2f", discount);
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_c);
         fclose (p_fptr_c);
         printf("\nRental Car Booking Successful!\n");
@@ -255,14 +255,14 @@ int book_hotel_car (int booking_id, float price_flight){
     char filename[20];
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  Book your Hotel");
+    printf("                         Book your Hotel");
     printf("\n================================================================\n");
-    printf("\nPlease enter the Hotel ID you wish to travel:\n");
+    printf("\nPlease enter the Hotel ID you wish to stay:\n");
     scanf("%d", &hotel_id);
     int valid1 = validate_hotel_id(hotel_id);
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  Book your car");
+    printf("                         Book your car");
     printf("\n================================================================\n");
     printf("\nPlease enter the car ID you wish to rent:\n");
     scanf("%d", &car_id);
@@ -280,8 +280,6 @@ int book_hotel_car (int booking_id, float price_flight){
         fprintf(p_fptr_h,"\n You have booked the hotel for %d days.\n", days);
         fclose (p_fptr_h);
         float total_h = total_fare_hotel(days, price_hotel, booking_id);
-        printf("\nHotel Booking Successful!");
-        printf("\nHave a pleasant stay !!!\n");
 
         sprintf(filename, "%03d.txt", booking_id);
         p_fptr_h = fopen(filename,"a");
@@ -294,8 +292,8 @@ int book_hotel_car (int booking_id, float price_flight){
         fprintf(p_fptr_h,"\n You have booked the car for %d days.\n", days);
         fclose (p_fptr_h);
         float total_c =total_fare_car(days, price_car, booking_id);
-        printf("\nRental Car Booking Successful!\n");
-        printf("THANK YOU FOR BOOKING A RENTAL CAR !!!\n");
+        printf("\nYour Hotel and Rental Car Booking Successful!\n");
+        printf("THANK YOU FOR BOOKING !!!\n");
 
         float total_trip = total_fare_trip(price_flight, total_h,total_c);
         float discount = discount_offer_2(total_trip);
