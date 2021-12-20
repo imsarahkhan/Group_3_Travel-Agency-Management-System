@@ -39,7 +39,10 @@ The following file structure is used to organize files for this application:
 
 * /cmake-build-debug - Contains the files created after executing the application.
 * /include -  Contains all Header files used in the application.  
-* /doc - Contains the designed flowchart for the application.  The main documentation can be found on the Travel Agency Management System Documentation 
+* /doc - Contains the designed flowchart for the application. 
+  * /html - Doxygen file
+  * /latex - Doxygen file   
+  * /xml - Doxygen file    
 * /src - Contains the definition for all functions -  Function sources. 
 * /test :
   * /data - Contains the log files generated during testing. 
