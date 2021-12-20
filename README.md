@@ -37,11 +37,11 @@ Through this project, we intend to develop an application program for travel age
 
 The following file structure is used to organize files for this application:
 
-* /bin - Contains the files created after executing the application and the tests.
+* /cmake-build-debug - Contains the files created after executing the application.
 * /include -  Contains all Header files used in the application.  
-* /doc - Contains the designed flowchart for the application.  The main documentation can be found on the Travel Agency Managemnet System Documentation 
+* /doc - Contains the designed flowchart for the application.  The main documentation can be found on the Travel Agency Management System Documentation 
 * /src - Contains the definition for all functions -  Function sources. 
-* /test
+* /test :
   * /data - Contains the log files generated during testing. 
   * /include - Contains the header files for the test files.       
   * /src - Contains the definitions for all unit tests.  
@@ -51,16 +51,20 @@ The following file structure is used to organize files for this application:
 
 ### Installation
 
-Complete instructions regarding installation of this project can be found here: [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
+Complete instructions regarding installation of Travel Agency Management System can be found here: [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
 
 ### Compile and Build Instructions
+The instructions below have been verified to work on Windows using Cygwin and gcc
+
+* `Makefile` (default) Will build the application and run the application.
+* 
 
 
 ### Run Application
 
+* To run the application after installation, execute the application in the `cmake-build-debug` directory with  the command `Project_Program.exe`.
 
-
-### Test Application
+### Test
 
 
 ## Documentation
