@@ -100,7 +100,7 @@ float total_fare_car (int days,float price_car, int booking_id) {
     sprintf(filename, "%03d.txt", booking_id);
     FILE * p_fptr = fopen(filename,"a");
     fprintf(p_fptr,"\n---------------------------------------------------------------------\n");
-    fprintf(p_fptr, "Your total fare for the car is $%f", total);
+    fprintf(p_fptr, "Your total fare for the car is $%.2f", total);
     fprintf(p_fptr,"\n---------------------------------------------------------------------\n");
     fclose(p_fptr);
     return total;

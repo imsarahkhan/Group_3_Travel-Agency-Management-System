@@ -302,7 +302,7 @@ int book_hotel_car (int booking_id, float price_flight){
         p_fptr_h = fopen(filename,"a");
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_h);
         fprintf(p_fptr_h,"Your total fare now for the trip is $%.2f", total_trip);
-        fprintf(p_fptr_h, "\nYou have been offered 15 percent discount !!!\nYour final amount to pay is $%f", discount);
+        fprintf(p_fptr_h, "\nYou have been offered 15 percent discount !!!\nYour final amount to pay is $%.2f", discount);
         fputs("\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n",p_fptr_h);
         fclose (p_fptr_h);
     } else {
