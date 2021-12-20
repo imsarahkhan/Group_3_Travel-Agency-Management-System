@@ -55,6 +55,9 @@ The following file structure is used to organize files for this application:
 
 ## Getting Started
 
+### Supported Platforms
+Unix, Cygwin and MacOS.
+
 ### Installation
 
 Complete instructions regarding installation of Travel Agency Management System can be found here: [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
@@ -71,7 +74,7 @@ The instructions below have been verified to work on Windows using Cygwin and gc
 
 ### Test
 
-* To run the test files, execute the application in the `test` directory with `Program_Test`.
+* To run the test files, execute the application in the `test` directory with `Program_Test.c`.
 
 ## Documentation
 
