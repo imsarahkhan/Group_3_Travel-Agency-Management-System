@@ -63,7 +63,7 @@ Unix, Cygwin and MacOS.
 Complete instructions regarding installation of Travel Agency Management System can be found here: [User Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)
 
 ### Compile and Build Instructions
-The instructions below have been verified to work on Windows using Cygwin and gcc
+The instructions below have been verified to work on Windows using Cygwin and gcc.
 
 * `Makefile` (default) Will build the application and run the application.
 * `make clean` Will remove all build artifacts.
