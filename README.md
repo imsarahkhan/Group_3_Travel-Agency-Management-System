@@ -33,6 +33,8 @@ Through this project, we intend to develop an application program for travel age
 * Users can view and print their booked trip at any time of their convenience using their booking ID.
 * Users can cancel their booked trip without any additional charges using their booking ID.
 
+Detailed information about the application can be found [here](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki).
+
 ## File Organization
 
 The following file structure is used to organize files for this application:
