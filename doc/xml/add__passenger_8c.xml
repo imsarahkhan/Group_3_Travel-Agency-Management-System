@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="add__passenger_8c" kind="file" language="C++">
+    <compoundname>add_passenger.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="add__passengers_8h" local="yes">../include/add_passengers.h</includes>
+    <includes refid="client__model_8h" local="yes">../include/client_model.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>../include/add_passengers.h</label>
+        <link refid="add__passengers_8h"/>
+      </node>
+      <node id="4">
+        <label>../include/client_model.h</label>
+        <link refid="client__model_8h"/>
+      </node>
+      <node id="1">
+        <label>add_passenger.c</label>
+        <link refid="add__passenger_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="add__passenger_8c_1a9744d83b1c9da20dae21cc7903bff139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int add_passengers</definition>
+        <argsstring>(int booking_id)</argsstring>
+        <name>add_passengers</name>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user for the number of passengers travelling in the trip.</para>
+<para>The user will enter the passenger details including the user.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID created from the book trip function</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the number of passengers </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/add_passenger.c" line="34" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/add_passenger.c" bodystart="34" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This takes the information of passengers travelling in the trip. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;../include/add_passengers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../include/client_model.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="add__passenger_8c_1a9744d83b1c9da20dae21cc7903bff139" kindref="member">add_passengers</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structclient" kindref="compound">client</ref><sp/>user_profile;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_passenger;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>filename[20];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(filename,<sp/></highlight><highlight class="stringliteral">&quot;%03d.txt&quot;</highlight><highlight class="normal">,<sp/>booking_id);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*p_fptr<sp/>=<sp/>fopen(filename,</highlight><highlight class="stringliteral">&quot;a&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nNumber<sp/>of<sp/>passengers<sp/>including<sp/>yourself<sp/>\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;num_passenger);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(num_passenger&gt;10){</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Error!<sp/>Number<sp/>of<sp/>passengers<sp/>cannot<sp/>be<sp/>more<sp/>than<sp/>10!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>Again:\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;num_passenger);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>fgetc(stdin);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=1;i&lt;num_passenger+1<sp/>;i++)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nPassenger<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(p_fptr,</highlight><highlight class="stringliteral">&quot;\n<sp/>======================Passenger<sp/>%d====================\n&quot;</highlight><highlight class="normal">,<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nPlease<sp/>enter<sp/>your<sp/>full<sp/>name:\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gets(user_profile.fullName);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(</highlight><highlight class="stringliteral">&quot;Name:<sp/>\t<sp/>&quot;</highlight><highlight class="normal">,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(user_profile.fullName,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nPlease<sp/>enter<sp/>your<sp/>email:\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gets(user_profile.email);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(</highlight><highlight class="stringliteral">&quot;\nEmail:<sp/>\t<sp/>&quot;</highlight><highlight class="normal">,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(user_profile.email,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nPlease<sp/>enter<sp/>your<sp/>phone<sp/>number:\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gets(user_profile.phone);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(</highlight><highlight class="stringliteral">&quot;\nPhone<sp/>Number:<sp/>\t&quot;</highlight><highlight class="normal">,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(user_profile.phone,<sp/>p_fptr);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,p_fptr);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(p_fptr);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>num_passenger;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/add_passenger.c"/>
+  </compounddef>
+</doxygen>

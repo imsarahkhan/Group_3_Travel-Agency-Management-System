@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="structclient" kind="struct"><name>client</name>
+    <member refid="structclient_1a4482eb955354724430691a7e7e748c44" kind="variable"><name>fullName</name></member>
+    <member refid="structclient_1a5085115a00fe617fcb4a3f38157e33df" kind="variable"><name>email</name></member>
+    <member refid="structclient_1a1cfe70a990463d69fb9aa106403bbb60" kind="variable"><name>username</name></member>
+    <member refid="structclient_1ae2f06144744aa77e5443babb0f993ec6" kind="variable"><name>password</name></member>
+    <member refid="structclient_1a76095a6ac5f3c3228463e135eff3a69b" kind="variable"><name>phone</name></member>
+  </compound>
+  <compound refid="_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a07f8e5783674099cd7f5110e22a78cdb" kind="define"><name>C_DIALECT</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a1ce162bad2fe6966ac8b33cc19e120b8" kind="variable"><name>info_language_dialect_default</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="add__passengers_8h" kind="file"><name>add_passengers.h</name>
+    <member refid="add__passengers_8h_1a9744d83b1c9da20dae21cc7903bff139" kind="function"><name>add_passengers</name></member>
+  </compound>
+  <compound refid="book__trip_8h" kind="file"><name>book_trip.h</name>
+    <member refid="book__trip_8h_1ae9bb741a2425ff6e6e85faa7e5515ff8" kind="function"><name>book_trip</name></member>
+    <member refid="book__trip_8h_1a3e139a45f2e5d8f876114608dab9feb9" kind="function"><name>book_hotel</name></member>
+    <member refid="book__trip_8h_1a06f83e18db87fc7d130a1674a70ae94b" kind="function"><name>book_car</name></member>
+    <member refid="book__trip_8h_1a5c45ea014b94f637cef55c5eb52c112a" kind="function"><name>book_hotel_car</name></member>
+  </compound>
+  <compound refid="cancel__trip_8h" kind="file"><name>cancel_trip.h</name>
+    <member refid="cancel__trip_8h_1a5d39b64292e477487712847a22045d45" kind="function"><name>cancel_trip</name></member>
+  </compound>
+  <compound refid="client__model_8h" kind="file"><name>client_model.h</name>
+  </compound>
+  <compound refid="global__variable_8h" kind="file"><name>global_variable.h</name>
+    <member refid="global__variable_8h_1a017cfc531760c86a0b73db8fc5d2252b" kind="variable"><name>g_booking_id</name></member>
+    <member refid="global__variable_8h_1aaad4a43eaa33b70132a8014147a33a01" kind="variable"><name>g_count_1</name></member>
+    <member refid="global__variable_8h_1aa0801c7f43805af1fb267be35562a4d7" kind="variable"><name>g_count_2</name></member>
+    <member refid="global__variable_8h_1a8293fe7ca2d4d10455ed1987f2a3655d" kind="variable"><name>g_count_3</name></member>
+    <member refid="global__variable_8h_1a5eea0e0744d27aa969539b50cb6f9876" kind="variable"><name>g_count_4</name></member>
+    <member refid="global__variable_8h_1abfa597df894c504d0481631fe7007bdc" kind="variable"><name>g_count_5</name></member>
+    <member refid="global__variable_8h_1ab51f76c91650af8a631c00ae98f9529c" kind="variable"><name>g_count_6</name></member>
+    <member refid="global__variable_8h_1a792177660a948c00cffa0b3b686e3fb2" kind="variable"><name>g_count_7</name></member>
+    <member refid="global__variable_8h_1a9aac4de31b62a42fdc9565858e5b14cd" kind="variable"><name>g_count_8</name></member>
+    <member refid="global__variable_8h_1a6e43eed3e30ec9677d9f9c037a7d7af9" kind="variable"><name>g_count_9</name></member>
+    <member refid="global__variable_8h_1a0d8594ea345b6c434536ba1073eb4b4e" kind="variable"><name>g_count_10</name></member>
+  </compound>
+  <compound refid="individual__route__prices_8h" kind="file"><name>individual_route_prices.h</name>
+    <member refid="individual__route__prices_8h_1a9ee4493e9a738bac74f736f7233a4de9" kind="function"><name>flight</name></member>
+    <member refid="individual__route__prices_8h_1abb4011624e0736ae62f104514c12c628" kind="function"><name>hotel</name></member>
+    <member refid="individual__route__prices_8h_1a2bd0d76c608b5d38752ddd51b961f011" kind="function"><name>car</name></member>
+  </compound>
+  <compound refid="main_8h" kind="file"><name>main.h</name>
+    <member refid="main_8h_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main__menu_8h" kind="file"><name>main_menu.h</name>
+    <member refid="main__menu_8h_1a7fe3adb8b69baff33af24e4a3a9c5048" kind="function"><name>main_menu</name></member>
+  </compound>
+  <compound refid="sign__up_8h" kind="file"><name>sign_up.h</name>
+    <member refid="sign__up_8h_1aec45d4ca6b8cadc14ab3d1fbd77f7115" kind="function"><name>sign_up</name></member>
+  </compound>
+  <compound refid="total__fare_8h" kind="file"><name>total_fare.h</name>
+    <member refid="total__fare_8h_1af9d65e88882f99b38f681cb099f2a467" kind="function"><name>total_fare_flight</name></member>
+    <member refid="total__fare_8h_1aa13a63cbe51dc384f4e160842e3dbc01" kind="function"><name>total_fare_hotel</name></member>
+    <member refid="total__fare_8h_1ac4ada7d1367cf1ba701375313c72b1ce" kind="function"><name>total_fare_car</name></member>
+    <member refid="total__fare_8h_1af53403e34ad2e8267fe963fbc1894348" kind="function"><name>total_fare_trip</name></member>
+    <member refid="total__fare_8h_1a74dbb2552314e8db23b508b5792e1c35" kind="function"><name>discount_offer_1</name></member>
+    <member refid="total__fare_8h_1a3846021ec2b6ce119539d17674fe79d7" kind="function"><name>discount_offer_2</name></member>
+  </compound>
+  <compound refid="trip__available_8h" kind="file"><name>trip_available.h</name>
+    <member refid="trip__available_8h_1ae1a033d3bc36718215ab1d7e79b7965f" kind="function"><name>trip_available</name></member>
+  </compound>
+  <compound refid="user__login_8h" kind="file"><name>user_login.h</name>
+    <member refid="user__login_8h_1a420ea08345f0efd3b2566d9136b9a2d8" kind="function"><name>user_login</name></member>
+  </compound>
+  <compound refid="validate__id_8h" kind="file"><name>validate_id.h</name>
+    <member refid="validate__id_8h_1a7eef78a5b579c6e0ad52a89f951f19c9" kind="function"><name>validate_route_id</name></member>
+    <member refid="validate__id_8h_1a705fc4e3c226e1f3d68f0a8ebd712c14" kind="function"><name>validate_hotel_id</name></member>
+    <member refid="validate__id_8h_1af434d44a19264fd86c8240c9912d0195" kind="function"><name>validate_car_id</name></member>
+  </compound>
+  <compound refid="view__brochure_8h" kind="file"><name>view_brochure.h</name>
+    <member refid="view__brochure_8h_1a0968360f971a8064a3b94928e3e03d0c" kind="function"><name>view_brochure</name></member>
+  </compound>
+  <compound refid="view__print__trip_8h" kind="file"><name>view_print_trip.h</name>
+    <member refid="view__print__trip_8h_1ac7030ef9b6913cfec6aee107233bc9c3" kind="function"><name>view_print_trip</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="add__passenger_8c" kind="file"><name>add_passenger.c</name>
+    <member refid="add__passenger_8c_1a9744d83b1c9da20dae21cc7903bff139" kind="function"><name>add_passengers</name></member>
+  </compound>
+  <compound refid="book__trip_8c" kind="file"><name>book_trip.c</name>
+    <member refid="book__trip_8c_1ae9bb741a2425ff6e6e85faa7e5515ff8" kind="function"><name>book_trip</name></member>
+    <member refid="book__trip_8c_1a3e139a45f2e5d8f876114608dab9feb9" kind="function"><name>book_hotel</name></member>
+    <member refid="book__trip_8c_1a06f83e18db87fc7d130a1674a70ae94b" kind="function"><name>book_car</name></member>
+    <member refid="book__trip_8c_1a5c45ea014b94f637cef55c5eb52c112a" kind="function"><name>book_hotel_car</name></member>
+  </compound>
+  <compound refid="cancel__trip_8c" kind="file"><name>cancel_trip.c</name>
+    <member refid="cancel__trip_8c_1a5d39b64292e477487712847a22045d45" kind="function"><name>cancel_trip</name></member>
+  </compound>
+  <compound refid="global__variables_8c" kind="file"><name>global_variables.c</name>
+    <member refid="global__variables_8c_1a017cfc531760c86a0b73db8fc5d2252b" kind="variable"><name>g_booking_id</name></member>
+    <member refid="global__variables_8c_1aaad4a43eaa33b70132a8014147a33a01" kind="variable"><name>g_count_1</name></member>
+    <member refid="global__variables_8c_1aa0801c7f43805af1fb267be35562a4d7" kind="variable"><name>g_count_2</name></member>
+    <member refid="global__variables_8c_1a8293fe7ca2d4d10455ed1987f2a3655d" kind="variable"><name>g_count_3</name></member>
+    <member refid="global__variables_8c_1a5eea0e0744d27aa969539b50cb6f9876" kind="variable"><name>g_count_4</name></member>
+    <member refid="global__variables_8c_1abfa597df894c504d0481631fe7007bdc" kind="variable"><name>g_count_5</name></member>
+    <member refid="global__variables_8c_1ab51f76c91650af8a631c00ae98f9529c" kind="variable"><name>g_count_6</name></member>
+    <member refid="global__variables_8c_1a792177660a948c00cffa0b3b686e3fb2" kind="variable"><name>g_count_7</name></member>
+    <member refid="global__variables_8c_1a9aac4de31b62a42fdc9565858e5b14cd" kind="variable"><name>g_count_8</name></member>
+    <member refid="global__variables_8c_1a6e43eed3e30ec9677d9f9c037a7d7af9" kind="variable"><name>g_count_9</name></member>
+    <member refid="global__variables_8c_1a0d8594ea345b6c434536ba1073eb4b4e" kind="variable"><name>g_count_10</name></member>
+  </compound>
+  <compound refid="individual__route__prices_8c" kind="file"><name>individual_route_prices.c</name>
+    <member refid="individual__route__prices_8c_1a5559486e5d71a33fb198dc26f5524362" kind="function"><name>flight</name></member>
+    <member refid="individual__route__prices_8c_1a8c934b362c241a56ded14354ae2954e2" kind="function"><name>hotel</name></member>
+    <member refid="individual__route__prices_8c_1a2bd0d76c608b5d38752ddd51b961f011" kind="function"><name>car</name></member>
+  </compound>
+  <compound refid="main_8c" kind="file"><name>main.c</name>
+    <member refid="main_8c_1a6288eba0f8e8ad3ab1544ad731eb7667" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main__menu_8c" kind="file"><name>main_menu.c</name>
+    <member refid="main__menu_8c_1a7fe3adb8b69baff33af24e4a3a9c5048" kind="function"><name>main_menu</name></member>
+  </compound>
+  <compound refid="sign__up_8c" kind="file"><name>sign_up.c</name>
+    <member refid="sign__up_8c_1aec45d4ca6b8cadc14ab3d1fbd77f7115" kind="function"><name>sign_up</name></member>
+  </compound>
+  <compound refid="total__fare_8c" kind="file"><name>total_fare.c</name>
+    <member refid="total__fare_8c_1af9d65e88882f99b38f681cb099f2a467" kind="function"><name>total_fare_flight</name></member>
+    <member refid="total__fare_8c_1aa13a63cbe51dc384f4e160842e3dbc01" kind="function"><name>total_fare_hotel</name></member>
+    <member refid="total__fare_8c_1ac4ada7d1367cf1ba701375313c72b1ce" kind="function"><name>total_fare_car</name></member>
+    <member refid="total__fare_8c_1af53403e34ad2e8267fe963fbc1894348" kind="function"><name>total_fare_trip</name></member>
+    <member refid="total__fare_8c_1a74dbb2552314e8db23b508b5792e1c35" kind="function"><name>discount_offer_1</name></member>
+    <member refid="total__fare_8c_1a3846021ec2b6ce119539d17674fe79d7" kind="function"><name>discount_offer_2</name></member>
+  </compound>
+  <compound refid="trip__available_8c" kind="file"><name>trip_available.c</name>
+    <member refid="trip__available_8c_1ae1a033d3bc36718215ab1d7e79b7965f" kind="function"><name>trip_available</name></member>
+  </compound>
+  <compound refid="user__login_8c" kind="file"><name>user_login.c</name>
+    <member refid="user__login_8c_1a0c104f5442fb3fe4623781dbc2434bb8" kind="function"><name>user_login</name></member>
+  </compound>
+  <compound refid="validate__id_8c" kind="file"><name>validate_id.c</name>
+    <member refid="validate__id_8c_1a62d315ef397450c63dfdd4d390182237" kind="function"><name>validate_route_id</name></member>
+    <member refid="validate__id_8c_1ae821ddf20b97620364e9dea6205fc536" kind="function"><name>validate_hotel_id</name></member>
+    <member refid="validate__id_8c_1a2de3d2dcb433c7d7fa1165aba4a7949a" kind="function"><name>validate_car_id</name></member>
+  </compound>
+  <compound refid="view__brochure_8c" kind="file"><name>view_brochure.c</name>
+    <member refid="view__brochure_8c_1a0968360f971a8064a3b94928e3e03d0c" kind="function"><name>view_brochure</name></member>
+  </compound>
+  <compound refid="view__print__trip_8c" kind="file"><name>view_print_trip.c</name>
+    <member refid="view__print__trip_8c_1ac7030ef9b6913cfec6aee107233bc9c3" kind="function"><name>view_print_trip</name></member>
+  </compound>
+  <compound refid="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e" kind="page"><name>md_C__Users_khans_OneDrive_Documents_GitHub_Group_3_Travel_Agency_Management_System_README</name>
+  </compound>
+  <compound refid="dir_2254ed4c86842eb07fcb8e0eac2ef2c8" kind="dir"><name>3.20.2</name>
+  </compound>
+  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>cmake-build-debug</name>
+  </compound>
+  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>CMakeFiles</name>
+  </compound>
+  <compound refid="dir_cb8aebdcbcd7898634ff25bad2892a2f" kind="dir"><name>CompilerIdC</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,41 @@
+\hypertarget{user__login_8h}{}\doxysection{user\+\_\+login.\+h File Reference}
+\label{user__login_8h}\index{user\_login.h@{user\_login.h}}
+
+
+This implements existing users to login to the Travel Management system.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{user__login_8h_a420ea08345f0efd3b2566d9136b9a2d8}{user\+\_\+login}} (char usrnm\mbox{[}30\mbox{]}, char pwd\mbox{[}30\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This implements existing users to login to the Travel Management system. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{user__login_8h_a420ea08345f0efd3b2566d9136b9a2d8}\label{user__login_8h_a420ea08345f0efd3b2566d9136b9a2d8}} 
+\index{user\_login.h@{user\_login.h}!user\_login@{user\_login}}
+\index{user\_login@{user\_login}!user\_login.h@{user\_login.h}}
+\doxysubsubsection{\texorpdfstring{user\_login()}{user\_login()}}
+{\footnotesize\ttfamily int user\+\_\+login (\begin{DoxyParamCaption}\item[{char}]{username\mbox{[}30\mbox{]},  }\item[{char}]{password\mbox{[}30\mbox{]} }\end{DoxyParamCaption})}
+
+This function will allow users’ to login to the system using ~\newline
+
+
+their username and password. If the credentials are invalid,user will be prompted to login again.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input of user\+\_\+name and password\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns response code according to the status of user inputs\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 on successful login and returns 2 on unsuccessful login 
+\end{DoxyReturn}

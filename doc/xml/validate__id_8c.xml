@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="validate__id_8c" kind="file" language="C++">
+    <compoundname>validate_id.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>validate_id.c</label>
+        <link refid="validate__id_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="validate__id_8c_1a62d315ef397450c63dfdd4d390182237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int validate_route_id</definition>
+        <argsstring>(int route_id)</argsstring>
+        <name>validate_route_id</name>
+        <param>
+          <type>int</type>
+          <declname>route_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will validate if the route ID for the flights have already been booked or not.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as route ID of flights</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns a temporary variable that stores a value 0 if no user booked that particular route and any other value indicates it is booked more than once. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" line="30" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" bodystart="30" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="validate__id_8c_1ae821ddf20b97620364e9dea6205fc536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int validate_hotel_id</definition>
+        <argsstring>(int hotel_id)</argsstring>
+        <name>validate_hotel_id</name>
+        <param>
+          <type>int</type>
+          <declname>hotel_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will validate if the hotel ID have already been booked or not.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as hotel ID</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the a temporary variable that stores a value 0 if no user booked that particular hotel and any other value indicates it is booked more than once. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" line="57" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="validate__id_8c_1a2de3d2dcb433c7d7fa1165aba4a7949a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int validate_car_id</definition>
+        <argsstring>(int car_id)</argsstring>
+        <name>validate_car_id</name>
+        <param>
+          <type>int</type>
+          <declname>car_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will validate if the car ID have already been booked or not.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as car ID</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the a temporary variable that stores a value 0 if no user booked that particular car services and any other value indicates it is booked more than once. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" line="85" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c" bodystart="85" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This implements validation of all the trip IDs (route,hotel and car). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="validate__id_8c_1a62d315ef397450c63dfdd4d390182237" kindref="member">validate_route_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>route_id)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>101;<sp/>i&lt;111<sp/>;i++)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(route_id<sp/>==<sp/>i){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>temp;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="validate__id_8c_1ae821ddf20b97620364e9dea6205fc536" kindref="member">validate_hotel_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hotel_id)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>201;<sp/>i&lt;205<sp/>;i++){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hotel_id<sp/>==<sp/>i){</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>temp;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="validate__id_8c_1a2de3d2dcb433c7d7fa1165aba4a7949a" kindref="member">validate_car_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>car_id)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>301;<sp/>i&lt;303<sp/>;i++){</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(car_id<sp/>==<sp/>i){</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>temp;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/validate_id.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+\hypertarget{cancel__trip_8c}{}\doxysection{cancel\+\_\+trip.\+c File Reference}
+\label{cancel__trip_8c}\index{cancel\_trip.c@{cancel\_trip.c}}
+
+
+This implements cancelling of the booked trip.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$sys/stat.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{cancel__trip_8c_a5d39b64292e477487712847a22045d45}{cancel\+\_\+trip}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This implements cancelling of the booked trip. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{cancel__trip_8c_a5d39b64292e477487712847a22045d45}\label{cancel__trip_8c_a5d39b64292e477487712847a22045d45}} 
+\index{cancel\_trip.c@{cancel\_trip.c}!cancel\_trip@{cancel\_trip}}
+\index{cancel\_trip@{cancel\_trip}!cancel\_trip.c@{cancel\_trip.c}}
+\doxysubsubsection{\texorpdfstring{cancel\_trip()}{cancel\_trip()}}
+{\footnotesize\ttfamily void cancel\+\_\+trip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This function will ask the user to enter the booking ID for which the trip needs to be cancelled.
+
+The function will delete the entry and inform the user of the cancellation without any cancellation fee.
+
+The amount will be refunded is printed on the command line.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em NONE} & \\
+\hline
+\mbox{\texttt{ out}}  & {\em NONE} & \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="view__brochure_8c" kind="file" language="C++">
+    <compoundname>view_brochure.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="view__brochure_8h" local="yes">../include/view_brochure.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>../include/view_brochure.h</label>
+        <link refid="view__brochure_8h"/>
+      </node>
+      <node id="1">
+        <label>view_brochure.c</label>
+        <link refid="view__brochure_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="view__brochure_8c_1a0968360f971a8064a3b94928e3e03d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void view_brochure</definition>
+        <argsstring>()</argsstring>
+        <name>view_brochure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function contains list of packages (routes, hotels, rental cars)</para>
+<para>along with their cost offered by the Travel agency</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/view_brochure.c" line="26" column="6" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/view_brochure.c" bodystart="26" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This dislays list of packages(flights,hotel and car) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;../include/view_brochure.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="view__brochure_8c_1a0968360f971a8064a3b94928e3e03d0c" kindref="member">view_brochure</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n************************<sp/>VIEW<sp/>BROCHURE<sp/>*************************\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nFind<sp/>the<sp/>Best<sp/>Deals<sp/>Faster<sp/>-<sp/>Start<sp/>Your<sp/>Trip<sp/>Planning<sp/>Today!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/>ROUTE<sp/>ID<sp/>\t\t\t<sp/>FLIGHTS<sp/>\t\t\t<sp/>PRICE\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/><sp/>101<sp/>\t\t\t<sp/>Toronto<sp/>to<sp/>Ottawa<sp/>\t\t\t<sp/>$400<sp/>\n\t\t<sp/><sp/>102<sp/>\t\t\t<sp/>Toronto<sp/>to<sp/>Montreal<sp/>\t\t\t<sp/>$450<sp/>\n\t\t<sp/><sp/>103<sp/>\t\t\t<sp/>Toronto<sp/>to<sp/>Vancouver<sp/>\t\t\t<sp/>$800<sp/>&quot;</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;<sp/>\n\t\t<sp/><sp/>104<sp/>\t\t\t<sp/>Toronto<sp/>to<sp/>Calgary<sp/>\t\t\t<sp/>$600<sp/>\n\t\t<sp/><sp/>105<sp/>\t\t\t<sp/>Ottawa<sp/>to<sp/>Montreal<sp/>\t\t\t<sp/>$600<sp/>\n\t\t<sp/><sp/>106<sp/>\t\t\t<sp/>Ottawa<sp/>to<sp/>Vancouver<sp/>\t\t\t<sp/>$300<sp/>&quot;</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;<sp/>\n\t\t<sp/><sp/>107<sp/>\t\t\t<sp/>Ottawa<sp/>to<sp/>Calgary<sp/>\t\t\t<sp/>$200<sp/>\n\t\t<sp/><sp/>108<sp/>\t\t\t<sp/>Montreal<sp/>to<sp/>Vancouver<sp/>\t\t\t<sp/>$350<sp/>\n\t\t<sp/><sp/>109<sp/>\t\t\t<sp/>Montreal<sp/>to<sp/>Calgary<sp/>\t\t\t<sp/>$500<sp/>&quot;</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;<sp/>\n\t\t<sp/><sp/>110<sp/>\t\t\t<sp/>Vancouver<sp/>to<sp/>Calgary<sp/>\t\t\t<sp/>$150\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/>HOTEL<sp/>ID<sp/>\t\t\t<sp/>HOTELS<sp/>\t\t\t<sp/>PRICE\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/><sp/>201<sp/>\t\t\t<sp/>Holiday<sp/>Inn\t\t\t\t$100<sp/>per<sp/>night<sp/>\n\t\t<sp/><sp/>202<sp/>\t\t\t<sp/>Ritz-Carlton\t\t\t\t$125<sp/>per<sp/>night<sp/><sp/>\n\t\t<sp/><sp/>203<sp/>\t\t\t<sp/>Four<sp/>Seasons<sp/>Hotel\t\t\t$170<sp/>per<sp/>night<sp/><sp/>\n\t\t<sp/><sp/>204<sp/>\t\t\t<sp/>Marriott<sp/>Hotel\t\t\t\t$200<sp/>per<sp/>night<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/>CAR<sp/>ID<sp/>\t\tRENTAL<sp/>CAR<sp/>SERVICE<sp/>\t\t\t<sp/><sp/>PRICE\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;========================================================================================================\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t\t<sp/>301<sp/>\t\t\tCanada<sp/>Car<sp/>Rental<sp/>\t\t\t$30<sp/>per<sp/>day<sp/>\n\t\t<sp/>302<sp/>\t\t\tEnterprise<sp/>Rental<sp/>\t\t\t$60<sp/>per<sp/>day\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/view_brochure.c"/>
+  </compounddef>
+</doxygen>

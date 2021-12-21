@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="trip__available_8c" kind="file" language="C++">
+    <compoundname>trip_available.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="trip__available_8h" local="yes">../include/trip_available.h</includes>
+    <includes refid="global__variable_8h" local="yes">../include/global_variable.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>../include/global_variable.h</label>
+        <link refid="global__variable_8h"/>
+      </node>
+      <node id="3">
+        <label>../include/trip_available.h</label>
+        <link refid="trip__available_8h"/>
+      </node>
+      <node id="1">
+        <label>trip_available.c</label>
+        <link refid="trip__available_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="trip__available_8c_1ae1a033d3bc36718215ab1d7e79b7965f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int trip_available</definition>
+        <argsstring>()</argsstring>
+        <name>trip_available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will count the number of times a particular route is booked and indicate the availability</para>
+<para>of the trip for the next user to book or not.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function return the counter value that defines number of routes booked via flights </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/trip_available.c" line="32" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/trip_available.c" bodystart="32" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This function checks for availability of flights. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;../include/trip_available.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;../include/global_variable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="trip__available_8c_1ae1a033d3bc36718215ab1d7e79b7965f" kindref="member">trip_available</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>counter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_1<sp/>&gt;<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Toronto<sp/>to<sp/>Ottawa<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_2<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Toronto<sp/>to<sp/>Montreal<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_3<sp/>&gt;<sp/>4)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Toronto<sp/>to<sp/>Vancouver<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_4<sp/>&gt;<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Toronto<sp/>to<sp/>Calgary<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_5<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Ottawa<sp/>to<sp/>Montreal<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_6<sp/>&gt;<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Ottawa<sp/>to<sp/>Vancouver<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_7<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Ottawa<sp/>to<sp/>Calgary<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_8<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Montreal<sp/>to<sp/>Vancouver<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_9<sp/>&gt;<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Montreal<sp/>to<sp/>Calgary<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(g_count_10<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>flight<sp/>from<sp/>Vancouver<sp/>to<sp/>Calgary<sp/>is<sp/>no<sp/>longer<sp/>available!\nPlease<sp/>select<sp/>another<sp/>flight.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>counter;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/trip_available.c"/>
+  </compounddef>
+</doxygen>

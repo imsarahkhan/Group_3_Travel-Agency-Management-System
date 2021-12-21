@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="book__trip_8h" kind="file" language="C++">
+    <compoundname>book_trip.h</compoundname>
+    <includedby refid="book__trip_8c" local="yes">book_trip.c</includedby>
+    <includedby refid="main__menu_8c" local="yes">main_menu.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>book_trip.h</label>
+        <link refid="book__trip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>book_trip.c</label>
+        <link refid="book__trip_8c"/>
+      </node>
+      <node id="3">
+        <label>main_menu.c</label>
+        <link refid="main__menu_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="book__trip_8h_1ae9bb741a2425ff6e6e85faa7e5515ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int book_trip</definition>
+        <argsstring>()</argsstring>
+        <name>book_trip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the flight route ID and will ask user to continue further if they would like to book hotel or car or both as well.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>text file with all the details of the booked trip(flight, hotel and car) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" line="27" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/book_trip.c" bodystart="38" bodyend="113" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="book__trip_8h_1a3e139a45f2e5d8f876114608dab9feb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int book_hotel</definition>
+        <argsstring>(int booking_id, float price_flight)</argsstring>
+        <name>book_hotel</name>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_flight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the hotel ID that they want to book hotel acccommodation</para>
+<para>The function will create booking details of the user and the fare after applying the discount</para>
+<para>and then written to a file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID and price of the flight booked</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the booking details of the flight and hotel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" line="44" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/book_trip.c" bodystart="132" bodyend="172" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" declline="44" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="book__trip_8h_1a06f83e18db87fc7d130a1674a70ae94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int book_car</definition>
+        <argsstring>(int booking_id, float price_flight)</argsstring>
+        <name>book_car</name>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_flight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the car ID that they want to book car services.</para>
+<para>The function will create booking details of the user and the fare along with any discounts</para>
+<para>will be computed and written to a file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID and price of the flight booked</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the booking details of the flight and car services. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" line="60" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/book_trip.c" bodystart="190" bodyend="229" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" declline="60" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="book__trip_8h_1a5c45ea014b94f637cef55c5eb52c112a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int book_hotel_car</definition>
+        <argsstring>(int booking_id, float price_flight)</argsstring>
+        <name>book_hotel_car</name>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_flight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the hotel ID and car ID based</para>
+<para>on the flight routes that are already booked.</para>
+<para>The function will create booking details of the user and the fare along with any discounts</para>
+<para>will be computed and written to a file for all the three packages that the user would like to book.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID and price of the flights</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the booking details of the flight, hotel and car services.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+This function will ask the user to enter the car ID and hotel ID based</para>
+<para>on the flight routes that are already booked.</para>
+<para>The function will create booking details of the user and the fare along with any discounts</para>
+<para>will be computed and written to a file for all the three packages that the user would like to book.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID and price of the flights</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the booking details of the flight, hotel and car services. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" line="79" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/book_trip.c" bodystart="252" bodyend="311" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h" declline="79" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This implements booking of all three packages - flight, hotel and car services for the Travel Management System. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_BOOK_HOTEL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_BOOK_HOTEL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="book__trip_8h_1ae9bb741a2425ff6e6e85faa7e5515ff8" kindref="member">book_trip</ref><sp/>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="book__trip_8h_1a3e139a45f2e5d8f876114608dab9feb9" kindref="member">book_hotel</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_flight);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="book__trip_8h_1a06f83e18db87fc7d130a1674a70ae94b" kindref="member">book_car</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_flight);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="book__trip_8h_1a5c45ea014b94f637cef55c5eb52c112a" kindref="member">book_hotel_car</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_flight);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/book_trip.h"/>
+  </compounddef>
+</doxygen>

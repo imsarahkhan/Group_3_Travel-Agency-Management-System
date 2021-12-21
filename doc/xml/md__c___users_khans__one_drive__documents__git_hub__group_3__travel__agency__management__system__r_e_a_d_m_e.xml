@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C__Users_khans_OneDrive_Documents_GitHub_Group_3_Travel_Agency_Management_System_README</compoundname>
+    <title>Group 3 - Travel Agency Management System</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md1">
+<title>Table of Contents</title>
+<para><itemizedlist>
+<listitem><para><ulink url="#team-members">Team Members</ulink></para>
+</listitem><listitem><para><ulink url="#application-overview">Application Overview</ulink></para>
+</listitem><listitem><para><ulink url="#file-organization">File Organization</ulink></para>
+</listitem><listitem><para><ulink url="#getting-started">Getting Started</ulink></para>
+</listitem><listitem><para><ulink url="#documentation">Documentation</ulink></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md2">
+<title>Team Members</title>
+<para><bold>Organization:</bold> Carleton University</para>
+<para><bold>Course:</bold> SYSC 4006 - Introduction to Systems Programming</para>
+<para><bold>Authors:</bold></para>
+<para><table rows="4" cols="2"><row>
+<entry thead="yes"><para>Student   </para>
+</entry><entry thead="yes"><para>Github ID    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Kavya Vellaiyur Chellaram   </para>
+</entry><entry thead="no"><para>kavyaram15    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Ramya Thammineni   </para>
+</entry><entry thead="no"><para>ramyathammineni    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Sarah Imran Khan   </para>
+</entry><entry thead="no"><para>imsarahkhan   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md3">
+<title>Application Overview</title>
+<para>Travel agents facilitate clients to find out best possible travel arrangements, recommend destinations and make arrangements for the hotel accommodations, car rentals, transportation, and tours for clients. The purpose of this project is to computerize the different operations in travel agencies through an easy-to-use automated booking system. Through this project, we intend to develop an application program for travel agencies which provides a convenient way for clients to book services such as flights, hotel accommodation and rental cars.</para>
+<para><itemizedlist>
+<listitem><para>Users will be able to signup/login into the portal using their credentials and can log out of the system once their needs are fulfilled.</para>
+</listitem><listitem><para>View a list of packages (flight, hotel accommodation, and rental car) along with the cost offered by the travel agency</para>
+</listitem><listitem><para>Book flight, hotel accommodation, and rental car by using features like book trip, view/print trip, or cancel the trip.</para>
+</listitem><listitem><para>Users will be offered a discount if they choose more than one type of booking.</para>
+</listitem><listitem><para>Users can view and print their booked trip at any time of their convenience using their booking ID.</para>
+</listitem><listitem><para>Users can cancel their booked trip without any additional charges using their booking ID.</para>
+</listitem></itemizedlist>
+</para>
+<para>Detailed information about the application can be found <ulink url="https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki">here</ulink>.</para>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md4">
+<title>File Organization</title>
+<para>The following file structure is used to organize files for this application:</para>
+<para><table rows="12" cols="2"><row>
+<entry thead="yes"><para>Main Folder Structure   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/cmake-build-debug</computeroutput>   </para>
+</entry><entry thead="no"><para>Contains the files created after executing the application.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/include</computeroutput>   </para>
+</entry><entry thead="no"><para>Contains all Header files used in the application.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/doc</computeroutput>   </para>
+</entry><entry thead="no"><para>Contains the designed flowchart for the application.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/html</computeroutput>   </para>
+</entry><entry thead="no"><para>Doxygen file.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/latex</computeroutput>   </para>
+</entry><entry thead="no"><para>Doxygen file.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/xml</computeroutput>   </para>
+</entry><entry thead="no"><para>Doxygen file.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/src</computeroutput>   </para>
+</entry><entry thead="no"><para>Contains the definition for all functions - Function sources.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>/test</computeroutput>   </para>
+</entry><entry thead="no"><para>Contains all test sources and required data for testing.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>.gitignore</computeroutput>   </para>
+</entry><entry thead="no"><para>Specifies which files should be ignored by git.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>LICENSE</computeroutput>   </para>
+</entry><entry thead="no"><para>License of the application.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>README.md</computeroutput>   </para>
+</entry><entry thead="no"><para>Project&apos;s ReadMe file.   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md5">
+<title>Getting Started</title>
+<sect2 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md6">
+<title>Supported Platforms</title>
+<para>Unix, Cygwin and MacOS.</para>
+</sect2>
+<sect2 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md7">
+<title>Installation</title>
+<para>Complete instructions regarding installation of Travel Agency Management System can be found here: <ulink url="https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation">User Documentation</ulink></para>
+</sect2>
+<sect2 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md8">
+<title>Compile and Build Instructions</title>
+<para>The instructions below have been verified to work on Windows using Cygwin and gcc.</para>
+<para><itemizedlist>
+<listitem><para><computeroutput>Makefile</computeroutput> (default) Will build the application and run the application.</para>
+</listitem><listitem><para><computeroutput>make clean</computeroutput> Will remove all build artifacts.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md9">
+<title>Run Application</title>
+<para><itemizedlist>
+<listitem><para>To run the application after installation, execute the application in the <computeroutput>cmake-build-debug</computeroutput> directory with the command <computeroutput>Project_Program.exe</computeroutput>.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md10">
+<title>Test</title>
+<para><itemizedlist>
+<listitem><para>To run the test files, execute the application in the <computeroutput>test</computeroutput> directory with <computeroutput>Program_Test.c</computeroutput>.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md11">
+<title>Documentation</title>
+<para><itemizedlist>
+<listitem><para>All documentation regarding this application can be found in the project&apos;s GitHub repository.</para>
+</listitem><listitem><para>User documentation can be found in the Github repository at <ulink url="https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation"><bold>Travel Agency Management System User Documentation</bold></ulink></para>
+</listitem><listitem><para>Developer documentation can be found in the Github repository at <ulink url="https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Developer-Documentation"><bold>Travel Agency Management System Developer Documentation</bold></ulink></para>
+</listitem><listitem><para>Doxygen documentation can be found in the Github repository at <ulink url="https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Doxygen-Documentation"><bold>Travel Agency Management System Doxygen Documentation</bold></ulink></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md__c___users_khans__one_drive__documents__git_hub__group_3__travel__agency__management__system__r_e_a_d_m_e_1autotoc_md12">
+<title>License</title>
+<para>This project is licensed under the GPL 2.0 License. </para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/README.md"/>
+  </compounddef>
+</doxygen>
