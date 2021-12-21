@@ -39,19 +39,16 @@ Detailed information about the application can be found [here](https://github.co
 
 The following file structure is used to organize files for this application:
 
-| Main Folder Structure |                        Description                             |
-|-----------------------|----------------------------------------------------------------|                 
-| `/cmake-build-debug`  | Contains the files created after executing the application.    |
-| `/include`            | Contains all Header files used in the application.             |
-| `/doc`                | Contains the designed flowchart for the application.           |
-| `/html`               | Doxygen file.                                                  |
-| `/latex`              | Doxygen file.                                                  |
-| `/xml`                | Doxygen file.                                                  |
-| `/src`                | Contains the definition for all functions -  Function sources. |
-| `/test`               | Contains all test sources and required data for testing.       |
-| `.gitignore`          | Specifies which files should be ignored by git.                |
-| `LICENSE`             | License of the application.                                    |
-| `README.md`           | Project's ReadMe file.                                         |
+| Main Folder Structure |                                         Description                                     |
+|-----------------------|-----------------------------------------------------------------------------------------|                 
+| `/cmake-build-debug`  | Contains the files created after executing the application.                             |
+| `/include`            | Contains all Header files used in the application.                                      |
+| `/doc`                | Contains the designed flowchart for the application and doxygen documentation folders   |
+| `/src`                | Contains the definition for all functions -  Function sources.                          |
+| `/test`               | Contains all test sources and required data for testing.                                |
+| `.gitignore`          | Specifies which files should be ignored by git.                                         |
+| `LICENSE`             | License of the application.                                                             |
+| `README.md`           | Project's ReadMe file.                                                                  |
 
 ## Getting Started
 
