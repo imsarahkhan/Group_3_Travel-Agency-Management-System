@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Age
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Program_Test.dir/all
 all: CMakeFiles/Project_Program.dir/all
 .PHONY : all
 
@@ -71,8 +72,35 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Program_Test.dir/clean
 clean: CMakeFiles/Project_Program.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Program_Test.dir
+
+# All Build rule for target.
+CMakeFiles/Program_Test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Program_Test"
+.PHONY : CMakeFiles/Program_Test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Program_Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Program_Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Program_Test.dir/rule
+
+# Convenience name for target.
+Program_Test: CMakeFiles/Program_Test.dir/rule
+.PHONY : Program_Test
+
+# clean rule for target.
+CMakeFiles/Program_Test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/clean
+.PHONY : CMakeFiles/Program_Test.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Project_Program.dir
@@ -81,7 +109,7 @@ clean: CMakeFiles/Project_Program.dir/clean
 CMakeFiles/Project_Program.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Project_Program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Project_Program"
 .PHONY : CMakeFiles/Project_Program.dir/all
 
 # Build rule for subdir invocation for target.

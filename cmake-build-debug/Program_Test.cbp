@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Project_Program"/>
+		<Option title="Program_Test"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Program_test">
-				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Program_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Program_Test">
+				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Program_Test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -43,14 +43,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program_test"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program_Test"/>
 					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Program_test/fast">
-				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Program_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Program_Test/fast">
+				<Option output="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Program_Test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -65,7 +65,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program_test/fast"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program_Test/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -208,19 +208,19 @@
 			<Option target="Project_Program"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/test/src/log_file.c">
-			<Option target="Program_test"/>
+			<Option target="Program_Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/test/src/test_booking_id.c">
-			<Option target="Program_test"/>
+			<Option target="Program_Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/test/src/test_id.c">
-			<Option target="Program_test"/>
+			<Option target="Program_Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/test/src/test_sign_up.c">
-			<Option target="Program_test"/>
+			<Option target="Program_Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/test/src/testmain.c">
-			<Option target="Program_test"/>
+			<Option target="Program_Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

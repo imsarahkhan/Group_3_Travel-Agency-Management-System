@@ -57,6 +57,12 @@ void main (void) {
 
                 printf("\nPlease enter your email:\t");
                 gets(client_profile.email);
+                //ret == validate_email(client_profile.email);
+                if(NULL == strchr(client_profile.email,'@'))
+                {
+                    printf("\nInvalid Email");
+                    continue;
+                }
 
                 printf("\nPlease enter your username:\t");
                 gets(client_profile.username);
@@ -86,6 +92,7 @@ void main (void) {
 
                 printf("\nEnter your username:\t");
                 gets(username);
+
 
                 printf("Enter your password:\t");
                 gets(password);

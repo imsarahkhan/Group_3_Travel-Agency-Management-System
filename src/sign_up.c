@@ -40,3 +40,8 @@ int sign_up(struct client client_profile){
     fclose(fp);
     return response_code;
 }
+
+//int validate_email(client_profile.email)
+//{
+
+//}
