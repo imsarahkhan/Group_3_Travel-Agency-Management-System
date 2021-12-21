@@ -1,0 +1,21 @@
+Your booking id is 4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		YOUR FLIGHT BOOKING DETAILS ARE AS FOLLOWS:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+You have booked a flight from Toronto to Montreal
+
+ ======================Passenger 1====================
+Name: 	 hxhdhc
+Email: 	 hhjhsbx
+Phone Number: 	9827365
+
+ ======================Passenger 2====================
+Name: 	 ;ljcb
+Email: 	 ojkhcjb
+Phone Number: 	29873
+
+---------------------------------------------------------------------
+Your total fare for the flight is $900.00
+---------------------------------------------------------------------
