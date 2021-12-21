@@ -1,7 +1,7 @@
 /**
  * @file main_menu.c
  *
- * @This provides the main menu of the travel management system
+ * @brief This function displays features of the Travel Management System
  *
  *
  * 
@@ -13,34 +13,33 @@
 #include"../include/book_trip.h"
 #include"../include/view_print_trip.h"
 #include"../include/cancel_trip.h"
-#include"../include/user_logout.h"
 
 
 /**
-* @brief contains all the details regarding the trip are displayed 
+* @details contains all the details regarding the trip that are displayed 
 *
-* under the main menu using the view_brochure() sub-function and also 
+* using the view_brochure() sub-function and also the user have the option 
 *
-* the user have the option of choosing the different services offered 
+* of choosing the different services offered by the Travel management system.
 *
-* by the Travel management system
-*
-* @param[in] This function doesn't takes inputs
+* @param[in] NONE
 *
 *
-* @param[out] This function doesn't return any values
 *
+* @param[out] NONE
+*
+* 
 *
 **/
 
 int main_menu() {
     int option;
-    int choice;
+    char choice;
 
     printf("\n================================================================\n");
-    printf("\t\t\t\t\t\t  MAIN MENU");
+    printf("************************ MAIN MENU ***************************");
     printf("\n================================================================\n");
-    printf("\n************************ VIEW BROCHURE ************************\n");
+
     view_brochure();
     printf("\nPlease select one feature from the following to proceed:\n");
     printf("\n\t\t 1 - Book Trip \n\t\t 2 - View/Print Trip \n\t\t 3 - Cancel Trip \n\t\t 4 - User Logout \n");
@@ -56,22 +55,18 @@ int main_menu() {
             cancel_trip();
             break;
         case 4:
-            user_logout();
-            break;
+            printf("Logged out successfully");
+            return 0;
         default:
-            printf("ERROR!!! Not a valid input!\n");
+            printf("Invalid input!\n Try again!");
             scanf("%d",&option);
     }
 
-    printf("\nEnter: \n\t\t 1 - CONTINUE \n\t\t 2 - EXIT \n");
-    scanf("%d", &choice);
-    switch(choice){
-        case 1:
-            main_menu();
-            break;
-        case 2:
-            user_logout();
-            break;
+    printf("\nPress any button to continue");
+    fgetc(stdin);
+    scanf("%c", &choice);
+    if(choice != '\0') {
+        main_menu();
     }
     return 0;
 }

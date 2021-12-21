@@ -1,0 +1,37 @@
+Test ---- password validation..... failed!
+Test ---- Password matching..... failed!
+Test ---- password validation..... failed!
+Test ---- sign_up()..... successful!
+Test ---- Password matching..... failed!
+Test ---- Password for login..... failed!
+Test ---- password validation..... failed!
+Test ---- sign_up()..... successful!
+Test ---- credentials for login..... successful!
+Test ---- password validation..... failed!
+Test ---- sign_up()..... successful!
+Test ---- credentials for login..... successful!
+Test ---- password validation..... successful!
+Test ---- sign_up()..... successful!
+Test ---- username for login..... failed!
+Test ---- Password matching..... failed!
+Test ---- username for login..... failed!
+-----------------------sign_up test cases---------------------------------------
+Test ---- password validation..... failed!
+Test ---- sign_up()..... successful!
+-----------------------sign_up test cases---------------------------------------
+
+-----------------------User_login test cases---------------------------------------
+Test ---- username for login..... failed!
+-----------------------User_login test cases---------------------------------------
+
+----------------------- Services ID test cases---------------------------------------
+Test ---- route ID validation..... failed!\n-----------------------sign_up test cases---------------------------------------
+Test ---- Password matching..... failed!
+-----------------------sign_up test cases---------------------------------------
+
+-----------------------User_login test cases---------------------------------------
+Test ---- username for login..... failed!
+-----------------------User_login test cases---------------------------------------
+
+----------------------- Services ID test cases---------------------------------------
+Test ---- hotel ID validation..... failed!\nTest ---- car ID validation..... failed!\n

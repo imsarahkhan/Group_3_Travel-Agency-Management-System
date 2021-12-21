@@ -1,8 +1,7 @@
-
 /**
  * @file view_print_trip.h
  *
- * @This implements view or print option of the booked trip details for the user
+ * @brief This displays booked trip details for the user
  *
  *
  *
@@ -12,19 +11,18 @@
 #ifndef _VIEW_PRINT_TRIP_H_
 #define _VIEW_PRINT_TRIP_H_
 /**
-* @brief This function will ask the user to enter the booking id for which they would like 
+* @details This function will ask the user to enter the booking ID for which they would like 
 *
-* to view or print the ticket. The booking information is displayed on the screen.
+* to view or print the ticket. The booking information is displayed on the screen and creates a text file
 * 
 *
-* @param[in] The function doesn't take any input.
+* @param[in] NONE
 *
 *
 *
-* @param[out] This function doesn't return any value.
+* @param[out] NONE
 *
 *
 **/
-
-extern void view_print_trip ();
+void view_print_trip ();
 #endif

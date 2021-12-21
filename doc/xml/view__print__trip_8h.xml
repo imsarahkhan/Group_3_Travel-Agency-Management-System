@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="view__print__trip_8h" kind="file" language="C++">
+    <compoundname>view_print_trip.h</compoundname>
+    <includedby refid="main__menu_8c" local="yes">main_menu.c</includedby>
+    <includedby refid="view__print__trip_8c" local="yes">view_print_trip.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>view_print_trip.h</label>
+        <link refid="view__print__trip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>main_menu.c</label>
+        <link refid="main__menu_8c"/>
+      </node>
+      <node id="3">
+        <label>view_print_trip.c</label>
+        <link refid="view__print__trip_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="view__print__trip_8h_1ac7030ef9b6913cfec6aee107233bc9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void view_print_trip</definition>
+        <argsstring>()</argsstring>
+        <name>view_print_trip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the booking ID for which they would like</para>
+<para>to view or print the ticket. The booking information is displayed on the screen and creates a text file</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/view_print_trip.h" line="27" column="6" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/view_print_trip.c" bodystart="34" bodyend="58" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/view_print_trip.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This displays booked trip details for the user. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_VIEW_PRINT_TRIP_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_VIEW_PRINT_TRIP_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="view__print__trip_8h_1ac7030ef9b6913cfec6aee107233bc9c3" kindref="member">view_print_trip</ref><sp/>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/view_print_trip.h"/>
+  </compounddef>
+</doxygen>

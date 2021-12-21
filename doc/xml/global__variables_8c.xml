@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="global__variables_8c" kind="file" language="C++">
+    <compoundname>global_variables.c</compoundname>
+    <includes refid="global__variable_8h" local="yes">../include/global_variable.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>../include/global_variable.h</label>
+        <link refid="global__variable_8h"/>
+      </node>
+      <node id="1">
+        <label>global_variables.c</label>
+        <link refid="global__variables_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="global__variables_8c_1a017cfc531760c86a0b73db8fc5d2252b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_booking_id</definition>
+        <argsstring></argsstring>
+        <name>g_booking_id</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The booking ID is used as a global variable to retain the booking ID throughout the booking of a single user. And increments the booking ID for successive users.</para>
+<para>The remaining variables are used as counters for the trip availability </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="18" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1aaad4a43eaa33b70132a8014147a33a01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_1</definition>
+        <argsstring></argsstring>
+        <name>g_count_1</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="19" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1aa0801c7f43805af1fb267be35562a4d7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_2</definition>
+        <argsstring></argsstring>
+        <name>g_count_2</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="20" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a8293fe7ca2d4d10455ed1987f2a3655d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_3</definition>
+        <argsstring></argsstring>
+        <name>g_count_3</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="21" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a5eea0e0744d27aa969539b50cb6f9876" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_4</definition>
+        <argsstring></argsstring>
+        <name>g_count_4</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="22" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1abfa597df894c504d0481631fe7007bdc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_5</definition>
+        <argsstring></argsstring>
+        <name>g_count_5</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="23" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1ab51f76c91650af8a631c00ae98f9529c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_6</definition>
+        <argsstring></argsstring>
+        <name>g_count_6</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="24" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a792177660a948c00cffa0b3b686e3fb2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_7</definition>
+        <argsstring></argsstring>
+        <name>g_count_7</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="25" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a9aac4de31b62a42fdc9565858e5b14cd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_8</definition>
+        <argsstring></argsstring>
+        <name>g_count_8</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="26" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a6e43eed3e30ec9677d9f9c037a7d7af9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_9</definition>
+        <argsstring></argsstring>
+        <name>g_count_9</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="27" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variables_8c_1a0d8594ea345b6c434536ba1073eb4b4e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_10</definition>
+        <argsstring></argsstring>
+        <name>g_count_10</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" line="28" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This contains all the global variables required for the Travel Management System. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../include/global_variable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="global__variables_8c_1a017cfc531760c86a0b73db8fc5d2252b" kindref="member">g_booking_id</ref>=0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_1=0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_2=0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_3=0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_4=0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_5=0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_6=0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_7=0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_8=0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_9=0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_count_10=0;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c"/>
+  </compounddef>
+</doxygen>

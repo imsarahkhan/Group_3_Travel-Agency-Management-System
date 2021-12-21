@@ -1,8 +1,8 @@
 
 /**
- * @file add_passengers.c
+ * @file add_passenger.c
  *
- * @This provides the number passengers travelling in the trip
+ * @brief This takes the information of passengers travelling in the trip
  *
  *
  * 
@@ -15,9 +15,9 @@
 
 
 /**
-* @brief This function will ask the user for the number of passengers travelling in the trip.
+* @details This function will ask the user for the number of passengers travelling in the trip.
 *
-* The user will enter the passenger details including the user themselves.
+* The user will enter the passenger details including the user.
 *
 * 
 *

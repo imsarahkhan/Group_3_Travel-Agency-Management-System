@@ -9,9 +9,11 @@ CMakeFiles/Project_Program.dir/src/book_trip.c.o: \
  ../include/global_variable.h \
  ../include/trip_available.h \
  ../include/add_passengers.h \
+ ../include/book_trip.h \
  ../include/individual_route_prices.h \
  ../include/total_fare.h \
  ../include/validate_id.h \
+ ../include/view_brochure.h \
  ../src/book_trip.c
 CMakeFiles/Project_Program.dir/src/cancel_trip.c.o: \
  ../src/cancel_trip.c
@@ -22,15 +24,14 @@ CMakeFiles/Project_Program.dir/src/individual_route_prices.c.o: \
  ../include/global_variable.h \
  ../src/individual_route_prices.c
 CMakeFiles/Project_Program.dir/src/main.c.o: \
+ ../include/client_model.h \
  ../include/main_menu.h \
  ../include/sign_up.h \
  ../include/user_login.h \
- ../include/user_logout.h \
  ../src/main.c
 CMakeFiles/Project_Program.dir/src/main_menu.c.o: \
  ../include/book_trip.h \
  ../include/cancel_trip.h \
- ../include/user_logout.h \
  ../include/view_brochure.h \
  ../include/view_print_trip.h \
  ../src/main_menu.c
@@ -45,12 +46,8 @@ CMakeFiles/Project_Program.dir/src/trip_available.c.o: \
  ../src/trip_available.c
 CMakeFiles/Project_Program.dir/src/user_login.c.o: \
  ../include/client_model.h \
- ../include/sign_up.h \
  ../include/user_login.h \
  ../src/user_login.c
-CMakeFiles/Project_Program.dir/src/user_logout.c.o: \
- ../include/user_logout.h \
- ../src/user_logout.c
 CMakeFiles/Project_Program.dir/src/validate_id.c.o: \
  ../src/validate_id.c
 CMakeFiles/Project_Program.dir/src/view_brochure.c.o: \

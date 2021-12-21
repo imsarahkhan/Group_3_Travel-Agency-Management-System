@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="global__variable_8h" kind="file" language="C++">
+    <compoundname>global_variable.h</compoundname>
+    <includedby refid="book__trip_8c" local="no">book_trip.c</includedby>
+    <includedby refid="global__variables_8c" local="yes">global_variables.c</includedby>
+    <includedby refid="individual__route__prices_8c" local="no">individual_route_prices.c</includedby>
+    <includedby refid="trip__available_8c" local="yes">trip_available.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>global_variable.h</label>
+        <link refid="global__variable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>book_trip.c</label>
+        <link refid="book__trip_8c"/>
+      </node>
+      <node id="3">
+        <label>global_variables.c</label>
+        <link refid="global__variables_8c"/>
+      </node>
+      <node id="4">
+        <label>individual_route_prices.c</label>
+        <link refid="individual__route__prices_8c"/>
+      </node>
+      <node id="5">
+        <label>trip_available.c</label>
+        <link refid="trip__available_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="global__variable_8h_1a017cfc531760c86a0b73db8fc5d2252b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_booking_id</definition>
+        <argsstring></argsstring>
+        <name>g_booking_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The booking ID is used as a global variable to retain the booking ID throughout the booking of a single user. And increments the booking ID for successive users.</para>
+<para>The remaining variables are used as counters for the trip availability </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="12" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/global_variables.c" bodystart="18" bodyend="-1" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" declline="20" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1aaad4a43eaa33b70132a8014147a33a01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_1</definition>
+        <argsstring></argsstring>
+        <name>g_count_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="24" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1aa0801c7f43805af1fb267be35562a4d7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_2</definition>
+        <argsstring></argsstring>
+        <name>g_count_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="33" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a8293fe7ca2d4d10455ed1987f2a3655d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_3</definition>
+        <argsstring></argsstring>
+        <name>g_count_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="42" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a5eea0e0744d27aa969539b50cb6f9876" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_4</definition>
+        <argsstring></argsstring>
+        <name>g_count_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="51" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1abfa597df894c504d0481631fe7007bdc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_5</definition>
+        <argsstring></argsstring>
+        <name>g_count_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="60" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1ab51f76c91650af8a631c00ae98f9529c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_6</definition>
+        <argsstring></argsstring>
+        <name>g_count_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="69" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a792177660a948c00cffa0b3b686e3fb2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_7</definition>
+        <argsstring></argsstring>
+        <name>g_count_7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="78" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a9aac4de31b62a42fdc9565858e5b14cd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_8</definition>
+        <argsstring></argsstring>
+        <name>g_count_8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="87" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a6e43eed3e30ec9677d9f9c037a7d7af9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_9</definition>
+        <argsstring></argsstring>
+        <name>g_count_9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="96" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="global__variable_8h_1a0d8594ea345b6c434536ba1073eb4b4e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int g_count_10</definition>
+        <argsstring></argsstring>
+        <name>g_count_10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" line="20" column="105" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This contains all the global variables required for the Travel Management System. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PROJECT_PROGRAM_GLOBAL_VARIABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJECT_PROGRAM_GLOBAL_VARIABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="global__variable_8h_1a017cfc531760c86a0b73db8fc5d2252b" kindref="member">g_booking_id</ref>,g_count_1,g_count_2,g_count_3,g_count_4,g_count_5,g_count_6,g_count_7,g_count_8,g_count_9,g_count_10;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//PROJECT_PROGRAM_GLOBAL_VARIABLE_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/global_variable.h"/>
+  </compounddef>
+</doxygen>

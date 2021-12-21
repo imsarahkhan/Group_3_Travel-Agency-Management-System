@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>include</compoundname>
+    <innerfile refid="add__passengers_8h">add_passengers.h</innerfile>
+    <innerfile refid="book__trip_8h">book_trip.h</innerfile>
+    <innerfile refid="cancel__trip_8h">cancel_trip.h</innerfile>
+    <innerfile refid="client__model_8h">client_model.h</innerfile>
+    <innerfile refid="global__variable_8h">global_variable.h</innerfile>
+    <innerfile refid="individual__route__prices_8h">individual_route_prices.h</innerfile>
+    <innerfile refid="main_8h">main.h</innerfile>
+    <innerfile refid="main__menu_8h">main_menu.h</innerfile>
+    <innerfile refid="sign__up_8h">sign_up.h</innerfile>
+    <innerfile refid="total__fare_8h">total_fare.h</innerfile>
+    <innerfile refid="trip__available_8h">trip_available.h</innerfile>
+    <innerfile refid="user__login_8h">user_login.h</innerfile>
+    <innerfile refid="validate__id_8h">validate_id.h</innerfile>
+    <innerfile refid="view__brochure_8h">view_brochure.h</innerfile>
+    <innerfile refid="view__print__trip_8h">view_print_trip.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/"/>
+  </compounddef>
+</doxygen>

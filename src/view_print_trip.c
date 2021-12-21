@@ -2,7 +2,7 @@
 /**
  * @file view_print_trip.c
  *
- * @This implements view or print option of the booked trip details for the user
+ * @brief This displays booked trip details for the user
  *
  *
  *
@@ -17,16 +17,16 @@
 
 
 /**
-* @brief This function will ask the user to enter the booking id for which they would like 
+* @details This function will ask the user to enter the booking ID for which they would like 
 *
-* to view or print the ticket. The booking information is displayed on the screen.
+* to view or print the ticket. The booking information is displayed on the screen and creates a text file
 * 
 *
-* @param[in] The function doesn't take any input.
+* @param[in] NONE
 *
 *
 *
-* @param[out] This function doesn't return any value.
+* @param[out] NONE
 *
 *
 **/
@@ -43,7 +43,7 @@ void view_print_trip () {
     int exist = stat(filename,&buffer);
     if (exist == 0) {
         FILE *p_fptr = fopen(filename, "r");
-        printf("\n Your car details are ready to be printed:\n");
+        printf("\n Your trip details are ready to be printed:\n");
         printf("===============================================================\n");
         str = fgetc(p_fptr);
         while (str != EOF) {

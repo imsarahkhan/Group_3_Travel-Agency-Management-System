@@ -10,7 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project_Program.dir/src/total_fare.c.o"
   "CMakeFiles/Project_Program.dir/src/trip_available.c.o"
   "CMakeFiles/Project_Program.dir/src/user_login.c.o"
-  "CMakeFiles/Project_Program.dir/src/user_logout.c.o"
   "CMakeFiles/Project_Program.dir/src/validate_id.c.o"
   "CMakeFiles/Project_Program.dir/src/view_brochure.c.o"
   "CMakeFiles/Project_Program.dir/src/view_print_trip.c.o"

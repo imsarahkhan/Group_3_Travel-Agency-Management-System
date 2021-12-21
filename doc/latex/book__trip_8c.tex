@@ -1,0 +1,109 @@
+\hypertarget{book__trip_8c}{}\doxysection{book\+\_\+trip.\+c File Reference}
+\label{book__trip_8c}\index{book\_trip.c@{book\_trip.c}}
+
+
+This implements booking of all three packages -\/ flight, hotel and car services for the Travel Management System.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$trip\+\_\+available.\+h$>$}\newline
+{\ttfamily \#include $<$global\+\_\+variable.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../include/validate\+\_\+id.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/individual\+\_\+route\+\_\+prices.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/total\+\_\+fare.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/add\+\_\+passengers.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/book\+\_\+trip.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/view\+\_\+brochure.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{book__trip_8c_ae9bb741a2425ff6e6e85faa7e5515ff8}{book\+\_\+trip}} ()
+\item 
+int \mbox{\hyperlink{book__trip_8c_a3e139a45f2e5d8f876114608dab9feb9}{book\+\_\+hotel}} (int booking\+\_\+id, float price\+\_\+flight)
+\item 
+int \mbox{\hyperlink{book__trip_8c_a06f83e18db87fc7d130a1674a70ae94b}{book\+\_\+car}} (int booking\+\_\+id, float price\+\_\+flight)
+\item 
+int \mbox{\hyperlink{book__trip_8c_a5c45ea014b94f637cef55c5eb52c112a}{book\+\_\+hotel\+\_\+car}} (int booking\+\_\+id, float price\+\_\+flight)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This implements booking of all three packages -\/ flight, hotel and car services for the Travel Management System. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{book__trip_8c_a06f83e18db87fc7d130a1674a70ae94b}\label{book__trip_8c_a06f83e18db87fc7d130a1674a70ae94b}} 
+\index{book\_trip.c@{book\_trip.c}!book\_car@{book\_car}}
+\index{book\_car@{book\_car}!book\_trip.c@{book\_trip.c}}
+\doxysubsubsection{\texorpdfstring{book\_car()}{book\_car()}}
+{\footnotesize\ttfamily int book\+\_\+car (\begin{DoxyParamCaption}\item[{int}]{booking\+\_\+id,  }\item[{float}]{price\+\_\+flight }\end{DoxyParamCaption})}
+
+This function will ask the user to enter the car ID that they want to book car services.
+
+The function will create booking details of the user and the fare along with any discounts
+
+will be computed and written to a file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as booking ID and price of the flight booked\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the booking details of the flight and car services. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{book__trip_8c_a3e139a45f2e5d8f876114608dab9feb9}\label{book__trip_8c_a3e139a45f2e5d8f876114608dab9feb9}} 
+\index{book\_trip.c@{book\_trip.c}!book\_hotel@{book\_hotel}}
+\index{book\_hotel@{book\_hotel}!book\_trip.c@{book\_trip.c}}
+\doxysubsubsection{\texorpdfstring{book\_hotel()}{book\_hotel()}}
+{\footnotesize\ttfamily int book\+\_\+hotel (\begin{DoxyParamCaption}\item[{int}]{booking\+\_\+id,  }\item[{float}]{price\+\_\+flight }\end{DoxyParamCaption})}
+
+This function will ask the user to enter the hotel ID that they want to book hotel acccommodation
+
+The function will create booking details of the user and the fare after applying the discount
+
+and then written to a file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as booking ID and price of the flight booked\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the booking details of the flight and hotel \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{book__trip_8c_a5c45ea014b94f637cef55c5eb52c112a}\label{book__trip_8c_a5c45ea014b94f637cef55c5eb52c112a}} 
+\index{book\_trip.c@{book\_trip.c}!book\_hotel\_car@{book\_hotel\_car}}
+\index{book\_hotel\_car@{book\_hotel\_car}!book\_trip.c@{book\_trip.c}}
+\doxysubsubsection{\texorpdfstring{book\_hotel\_car()}{book\_hotel\_car()}}
+{\footnotesize\ttfamily int book\+\_\+hotel\+\_\+car (\begin{DoxyParamCaption}\item[{int}]{booking\+\_\+id,  }\item[{float}]{price\+\_\+flight }\end{DoxyParamCaption})}
+
+This function will ask the user to enter the car ID and hotel ID based
+
+on the flight routes that are already booked.
+
+The function will create booking details of the user and the fare along with any discounts
+
+will be computed and written to a file for all the three packages that the user would like to book.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as booking ID and price of the flights\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the booking details of the flight, hotel and car services. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{book__trip_8c_ae9bb741a2425ff6e6e85faa7e5515ff8}\label{book__trip_8c_ae9bb741a2425ff6e6e85faa7e5515ff8}} 
+\index{book\_trip.c@{book\_trip.c}!book\_trip@{book\_trip}}
+\index{book\_trip@{book\_trip}!book\_trip.c@{book\_trip.c}}
+\doxysubsubsection{\texorpdfstring{book\_trip()}{book\_trip()}}
+{\footnotesize\ttfamily int book\+\_\+trip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This function will ask the user to enter the flight route ID and will ask user to continue further if they would like to book hotel or car or both as well.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em NONE} & \\
+\hline
+\mbox{\texttt{ out}}  & {\em A} & text file with all the details of the booked trip(flight, hotel and car) \\
+\hline
+\end{DoxyParams}

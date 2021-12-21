@@ -1,0 +1,146 @@
+\hypertarget{total__fare_8c}{}\doxysection{total\+\_\+fare.\+c File Reference}
+\label{total__fare_8c}\index{total\_fare.c@{total\_fare.c}}
+
+
+This provides the fare for all the trip services offered (flight, hotel and car)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{total__fare_8c_af9d65e88882f99b38f681cb099f2a467}{total\+\_\+fare\+\_\+flight}} (int num\+\_\+passengers, float price\+\_\+flight, int booking\+\_\+id)
+\item 
+float \mbox{\hyperlink{total__fare_8c_aa13a63cbe51dc384f4e160842e3dbc01}{total\+\_\+fare\+\_\+hotel}} (int days, float price\+\_\+hotel, int booking\+\_\+id)
+\item 
+float \mbox{\hyperlink{total__fare_8c_ac4ada7d1367cf1ba701375313c72b1ce}{total\+\_\+fare\+\_\+car}} (int days, float price\+\_\+car, int booking\+\_\+id)
+\item 
+float \mbox{\hyperlink{total__fare_8c_af53403e34ad2e8267fe963fbc1894348}{total\+\_\+fare\+\_\+trip}} (float total\+\_\+flight, float total\+\_\+hotel, float total\+\_\+car)
+\item 
+float \mbox{\hyperlink{total__fare_8c_a74dbb2552314e8db23b508b5792e1c35}{discount\+\_\+offer\+\_\+1}} (float total\+\_\+trip)
+\item 
+float \mbox{\hyperlink{total__fare_8c_a3846021ec2b6ce119539d17674fe79d7}{discount\+\_\+offer\+\_\+2}} (float total\+\_\+trip)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This provides the fare for all the trip services offered (flight, hotel and car) 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{total__fare_8c_a74dbb2552314e8db23b508b5792e1c35}\label{total__fare_8c_a74dbb2552314e8db23b508b5792e1c35}} 
+\index{total\_fare.c@{total\_fare.c}!discount\_offer\_1@{discount\_offer\_1}}
+\index{discount\_offer\_1@{discount\_offer\_1}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{discount\_offer\_1()}{discount\_offer\_1()}}
+{\footnotesize\ttfamily float discount\+\_\+offer\+\_\+1 (\begin{DoxyParamCaption}\item[{float}]{total\+\_\+trip }\end{DoxyParamCaption})}
+
+This function will calculate the fare after a discount of 5\% is applied
+
+to the trips booked for 2 features, that is, flight \& hotel or flight \& car.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as total fare of the entire trip\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the discounted fare \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{total__fare_8c_a3846021ec2b6ce119539d17674fe79d7}\label{total__fare_8c_a3846021ec2b6ce119539d17674fe79d7}} 
+\index{total\_fare.c@{total\_fare.c}!discount\_offer\_2@{discount\_offer\_2}}
+\index{discount\_offer\_2@{discount\_offer\_2}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{discount\_offer\_2()}{discount\_offer\_2()}}
+{\footnotesize\ttfamily float discount\+\_\+offer\+\_\+2 (\begin{DoxyParamCaption}\item[{float}]{total\+\_\+trip }\end{DoxyParamCaption})}
+
+This function will calaculate the fare after a discount of 15\% is applied
+
+to the trips booked for all 3 features, that is, flight, hotel \& car.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as total fare of the entire trip\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the discounted fare \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{total__fare_8c_ac4ada7d1367cf1ba701375313c72b1ce}\label{total__fare_8c_ac4ada7d1367cf1ba701375313c72b1ce}} 
+\index{total\_fare.c@{total\_fare.c}!total\_fare\_car@{total\_fare\_car}}
+\index{total\_fare\_car@{total\_fare\_car}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{total\_fare\_car()}{total\_fare\_car()}}
+{\footnotesize\ttfamily float total\+\_\+fare\+\_\+car (\begin{DoxyParamCaption}\item[{int}]{days,  }\item[{float}]{price\+\_\+car,  }\item[{int}]{booking\+\_\+id }\end{DoxyParamCaption})}
+
+This function will calculate the total fare for the rental car services including
+
+the number of days for the travel by car
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as number of days for travel, price for\\
+\hline
+\end{DoxyParams}
+rental car services and the booking ID created during book trip
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the total fare of the car rentals \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{total__fare_8c_af9d65e88882f99b38f681cb099f2a467}\label{total__fare_8c_af9d65e88882f99b38f681cb099f2a467}} 
+\index{total\_fare.c@{total\_fare.c}!total\_fare\_flight@{total\_fare\_flight}}
+\index{total\_fare\_flight@{total\_fare\_flight}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{total\_fare\_flight()}{total\_fare\_flight()}}
+{\footnotesize\ttfamily float total\+\_\+fare\+\_\+flight (\begin{DoxyParamCaption}\item[{int}]{num\+\_\+passengers,  }\item[{float}]{price\+\_\+flight,  }\item[{int}]{booking\+\_\+id }\end{DoxyParamCaption})}
+
+This function will calculate the total fare for the flight trip including the number
+
+of passengers travelling in flight for the specific routes
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as number of passengers from user, price for\\
+\hline
+\end{DoxyParams}
+each flight route and the booking ID created during book trip
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the total fare for the flight trip \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{total__fare_8c_aa13a63cbe51dc384f4e160842e3dbc01}\label{total__fare_8c_aa13a63cbe51dc384f4e160842e3dbc01}} 
+\index{total\_fare.c@{total\_fare.c}!total\_fare\_hotel@{total\_fare\_hotel}}
+\index{total\_fare\_hotel@{total\_fare\_hotel}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{total\_fare\_hotel()}{total\_fare\_hotel()}}
+{\footnotesize\ttfamily float total\+\_\+fare\+\_\+hotel (\begin{DoxyParamCaption}\item[{int}]{days,  }\item[{float}]{price\+\_\+hotel,  }\item[{int}]{booking\+\_\+id }\end{DoxyParamCaption})}
+
+This function will calculate the total fare for the hotel accommodation including
+
+the number of days for the stay according to the hotel prices
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as number of days of stay from user, price for\\
+\hline
+\end{DoxyParams}
+each hotel and the booking ID created during book trip
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the total fare of hotel booking \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{total__fare_8c_af53403e34ad2e8267fe963fbc1894348}\label{total__fare_8c_af53403e34ad2e8267fe963fbc1894348}} 
+\index{total\_fare.c@{total\_fare.c}!total\_fare\_trip@{total\_fare\_trip}}
+\index{total\_fare\_trip@{total\_fare\_trip}!total\_fare.c@{total\_fare.c}}
+\doxysubsubsection{\texorpdfstring{total\_fare\_trip()}{total\_fare\_trip()}}
+{\footnotesize\ttfamily float total\+\_\+fare\+\_\+trip (\begin{DoxyParamCaption}\item[{float}]{total\+\_\+flight,  }\item[{float}]{total\+\_\+hotel,  }\item[{float}]{total\+\_\+car }\end{DoxyParamCaption})}
+
+This function will calculate the total fare for entire trip
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as fares of each trip services (flight, hotel and car)\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the total fare of the entire trip \\
+\hline
+\end{DoxyParams}

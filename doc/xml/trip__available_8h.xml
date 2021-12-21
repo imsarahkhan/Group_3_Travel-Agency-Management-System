@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="trip__available_8h" kind="file" language="C++">
+    <compoundname>trip_available.h</compoundname>
+    <includedby refid="book__trip_8c" local="no">book_trip.c</includedby>
+    <includedby refid="trip__available_8c" local="yes">trip_available.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>trip_available.h</label>
+        <link refid="trip__available_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>book_trip.c</label>
+        <link refid="book__trip_8c"/>
+      </node>
+      <node id="3">
+        <label>trip_available.c</label>
+        <link refid="trip__available_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="trip__available_8h_1ae1a033d3bc36718215ab1d7e79b7965f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int trip_available</definition>
+        <argsstring>()</argsstring>
+        <name>trip_available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will count the number of times a particular route is booked and indicate the availability</para>
+<para>of the trip for the next user to book or not.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function return the counter value that defines number of routes booked via flights </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/trip_available.h" line="26" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/trip_available.c" bodystart="32" bodyend="68" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/trip_available.h" declline="26" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This function checks for availability of flights. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_TRIP_AVAILABLE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_TRIP_AVAILABLE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="trip__available_8h_1ae1a033d3bc36718215ab1d7e79b7965f" kindref="member">trip_available</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/trip_available.h"/>
+  </compounddef>
+</doxygen>

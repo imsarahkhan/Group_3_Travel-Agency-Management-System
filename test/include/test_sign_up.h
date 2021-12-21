@@ -1,0 +1,4 @@
+#ifndef PROJECT_PROGRAM_TEST_SIGN_UP_H
+#define PROJECT_PROGRAM_TEST_SIGN_UP_H
+int test_sign_up( );
+#endif //PROJECT_PROGRAM_TEST_SIGN_UP_H

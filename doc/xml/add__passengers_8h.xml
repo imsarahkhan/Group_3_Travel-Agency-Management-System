@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="add__passengers_8h" kind="file" language="C++">
+    <compoundname>add_passengers.h</compoundname>
+    <includedby refid="add__passenger_8c" local="yes">add_passenger.c</includedby>
+    <includedby refid="book__trip_8c" local="yes">book_trip.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>add_passengers.h</label>
+        <link refid="add__passengers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>add_passenger.c</label>
+        <link refid="add__passenger_8c"/>
+      </node>
+      <node id="3">
+        <label>book_trip.c</label>
+        <link refid="book__trip_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="add__passengers_8h_1a9744d83b1c9da20dae21cc7903bff139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int add_passengers</definition>
+        <argsstring>(int booking_id)</argsstring>
+        <name>add_passengers</name>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user for the number of passengers travelling in the trip.</para>
+<para>The user will enter the passenger details including the user.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as booking ID created from the book trip function</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the number of passengers </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/add_passengers.h" line="27" column="5" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/add_passenger.c" bodystart="34" bodyend="73" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/add_passengers.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This takes the information of passengers travelling in the trip. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ADD_PASSENGERS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ADD_PASSENGERS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="add__passengers_8h_1a9744d83b1c9da20dae21cc7903bff139" kindref="member">add_passengers</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/add_passengers.h"/>
+  </compounddef>
+</doxygen>

@@ -57,10 +57,10 @@ RM = /cygdrive/c/Users/kavya/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/CMakeFiles /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Travel_Management_System/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/kavya/OneDrive/Documents/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named Program_Test
+
+# Build rule for target.
+Program_Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Program_Test
+.PHONY : Program_Test
+
+# fast build rule for target.
+Program_Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/build
+.PHONY : Program_Test/fast
 
 #=============================================================================
 # Target rules for targets named Project_Program
@@ -393,30 +406,6 @@ src/user_login.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/src/user_login.c.s
 .PHONY : src/user_login.c.s
 
-src/user_logout.o: src/user_logout.c.o
-.PHONY : src/user_logout.o
-
-# target to build an object file
-src/user_logout.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/src/user_logout.c.o
-.PHONY : src/user_logout.c.o
-
-src/user_logout.i: src/user_logout.c.i
-.PHONY : src/user_logout.i
-
-# target to preprocess a source file
-src/user_logout.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/src/user_logout.c.i
-.PHONY : src/user_logout.c.i
-
-src/user_logout.s: src/user_logout.c.s
-.PHONY : src/user_logout.s
-
-# target to generate assembly for a file
-src/user_logout.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/src/user_logout.c.s
-.PHONY : src/user_logout.c.s
-
 src/validate_id.o: src/validate_id.c.o
 .PHONY : src/validate_id.o
 
@@ -489,6 +478,126 @@ src/view_print_trip.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_Program.dir/build.make CMakeFiles/Project_Program.dir/src/view_print_trip.c.s
 .PHONY : src/view_print_trip.c.s
 
+test/src/log_file.o: test/src/log_file.c.o
+.PHONY : test/src/log_file.o
+
+# target to build an object file
+test/src/log_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/log_file.c.o
+.PHONY : test/src/log_file.c.o
+
+test/src/log_file.i: test/src/log_file.c.i
+.PHONY : test/src/log_file.i
+
+# target to preprocess a source file
+test/src/log_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/log_file.c.i
+.PHONY : test/src/log_file.c.i
+
+test/src/log_file.s: test/src/log_file.c.s
+.PHONY : test/src/log_file.s
+
+# target to generate assembly for a file
+test/src/log_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/log_file.c.s
+.PHONY : test/src/log_file.c.s
+
+test/src/test_booking_id.o: test/src/test_booking_id.c.o
+.PHONY : test/src/test_booking_id.o
+
+# target to build an object file
+test/src/test_booking_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_booking_id.c.o
+.PHONY : test/src/test_booking_id.c.o
+
+test/src/test_booking_id.i: test/src/test_booking_id.c.i
+.PHONY : test/src/test_booking_id.i
+
+# target to preprocess a source file
+test/src/test_booking_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_booking_id.c.i
+.PHONY : test/src/test_booking_id.c.i
+
+test/src/test_booking_id.s: test/src/test_booking_id.c.s
+.PHONY : test/src/test_booking_id.s
+
+# target to generate assembly for a file
+test/src/test_booking_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_booking_id.c.s
+.PHONY : test/src/test_booking_id.c.s
+
+test/src/test_id.o: test/src/test_id.c.o
+.PHONY : test/src/test_id.o
+
+# target to build an object file
+test/src/test_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_id.c.o
+.PHONY : test/src/test_id.c.o
+
+test/src/test_id.i: test/src/test_id.c.i
+.PHONY : test/src/test_id.i
+
+# target to preprocess a source file
+test/src/test_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_id.c.i
+.PHONY : test/src/test_id.c.i
+
+test/src/test_id.s: test/src/test_id.c.s
+.PHONY : test/src/test_id.s
+
+# target to generate assembly for a file
+test/src/test_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_id.c.s
+.PHONY : test/src/test_id.c.s
+
+test/src/test_sign_up.o: test/src/test_sign_up.c.o
+.PHONY : test/src/test_sign_up.o
+
+# target to build an object file
+test/src/test_sign_up.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_sign_up.c.o
+.PHONY : test/src/test_sign_up.c.o
+
+test/src/test_sign_up.i: test/src/test_sign_up.c.i
+.PHONY : test/src/test_sign_up.i
+
+# target to preprocess a source file
+test/src/test_sign_up.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_sign_up.c.i
+.PHONY : test/src/test_sign_up.c.i
+
+test/src/test_sign_up.s: test/src/test_sign_up.c.s
+.PHONY : test/src/test_sign_up.s
+
+# target to generate assembly for a file
+test/src/test_sign_up.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/test_sign_up.c.s
+.PHONY : test/src/test_sign_up.c.s
+
+test/src/testmain.o: test/src/testmain.c.o
+.PHONY : test/src/testmain.o
+
+# target to build an object file
+test/src/testmain.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/testmain.c.o
+.PHONY : test/src/testmain.c.o
+
+test/src/testmain.i: test/src/testmain.c.i
+.PHONY : test/src/testmain.i
+
+# target to preprocess a source file
+test/src/testmain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/testmain.c.i
+.PHONY : test/src/testmain.c.i
+
+test/src/testmain.s: test/src/testmain.c.s
+.PHONY : test/src/testmain.s
+
+# target to generate assembly for a file
+test/src/testmain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program_Test.dir/build.make CMakeFiles/Program_Test.dir/test/src/testmain.c.s
+.PHONY : test/src/testmain.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -497,6 +606,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Program_Test"
 	@echo "... Project_Program"
 	@echo "... src/add_passenger.o"
 	@echo "... src/add_passenger.i"
@@ -531,9 +641,6 @@ help:
 	@echo "... src/user_login.o"
 	@echo "... src/user_login.i"
 	@echo "... src/user_login.s"
-	@echo "... src/user_logout.o"
-	@echo "... src/user_logout.i"
-	@echo "... src/user_logout.s"
 	@echo "... src/validate_id.o"
 	@echo "... src/validate_id.i"
 	@echo "... src/validate_id.s"
@@ -543,6 +650,21 @@ help:
 	@echo "... src/view_print_trip.o"
 	@echo "... src/view_print_trip.i"
 	@echo "... src/view_print_trip.s"
+	@echo "... test/src/log_file.o"
+	@echo "... test/src/log_file.i"
+	@echo "... test/src/log_file.s"
+	@echo "... test/src/test_booking_id.o"
+	@echo "... test/src/test_booking_id.i"
+	@echo "... test/src/test_booking_id.s"
+	@echo "... test/src/test_id.o"
+	@echo "... test/src/test_id.i"
+	@echo "... test/src/test_id.s"
+	@echo "... test/src/test_sign_up.o"
+	@echo "... test/src/test_sign_up.i"
+	@echo "... test/src/test_sign_up.s"
+	@echo "... test/src/testmain.o"
+	@echo "... test/src/testmain.i"
+	@echo "... test/src/testmain.s"
 .PHONY : help
 
 
