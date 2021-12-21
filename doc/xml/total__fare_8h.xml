@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="total__fare_8h" kind="file" language="C++">
+    <compoundname>total_fare.h</compoundname>
+    <includedby refid="book__trip_8c" local="yes">book_trip.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>total_fare.h</label>
+        <link refid="total__fare_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>book_trip.c</label>
+        <link refid="book__trip_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="total__fare_8h_1af9d65e88882f99b38f681cb099f2a467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float total_fare_flight</definition>
+        <argsstring>(int num_passengers, float price_flight, int booking_id)</argsstring>
+        <name>total_fare_flight</name>
+        <param>
+          <type>int</type>
+          <declname>num_passengers</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_flight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calculate the total fare for the flight trip including the number</para>
+<para>of passengers travelling in flight for the specific routes</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as number of passengers from user, price for</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+each flight route and the booking ID created during book trip</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the total fare for the flight trip </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="27" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="29" bodyend="43" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="27" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="total__fare_8h_1aa13a63cbe51dc384f4e160842e3dbc01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float total_fare_hotel</definition>
+        <argsstring>(int days, float price_hotel, int booking_id)</argsstring>
+        <name>total_fare_hotel</name>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_hotel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calculate the total fare for the hotel accommodation including</para>
+<para>the number of days for the stay according to the hotel prices</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as number of days of stay from user, price for</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+each hotel and the booking ID created during book trip</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the total fare of hotel booking </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="43" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="63" bodyend="76" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="43" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="total__fare_8h_1ac4ada7d1367cf1ba701375313c72b1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float total_fare_car</definition>
+        <argsstring>(int days, float price_car, int booking_id)</argsstring>
+        <name>total_fare_car</name>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price_car</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>booking_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calculate the total fare for the rental car services including</para>
+<para>the number of days for the travel by car</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as number of days for travel, price for</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+rental car services and the booking ID created during book trip</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the total fare of the car rentals </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="59" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="94" bodyend="107" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="59" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="total__fare_8h_1af53403e34ad2e8267fe963fbc1894348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float total_fare_trip</definition>
+        <argsstring>(float total_flight, float total_hotel, float total_car)</argsstring>
+        <name>total_fare_trip</name>
+        <param>
+          <type>float</type>
+          <declname>total_flight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>total_hotel</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>total_car</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calculate the total fare for entire trip</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as fares of each trip services (flight, hotel and car)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the total fare of the entire trip </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="71" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="122" bodyend="126" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="71" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="total__fare_8h_1a74dbb2552314e8db23b508b5792e1c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float discount_offer_1</definition>
+        <argsstring>(float total_trip)</argsstring>
+        <name>discount_offer_1</name>
+        <param>
+          <type>float</type>
+          <declname>total_trip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calculate the fare after a discount of 5% is applied</para>
+<para>to the trips booked for 2 features, that is, flight &amp; hotel or flight &amp; car.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as total fare of the entire trip</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the discounted fare </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="87" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="146" bodyend="150" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="87" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="total__fare_8h_1a3846021ec2b6ce119539d17674fe79d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float discount_offer_2</definition>
+        <argsstring>(float total_trip)</argsstring>
+        <name>discount_offer_2</name>
+        <param>
+          <type>float</type>
+          <declname>total_trip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will calaculate the fare after a discount of 15% is applied</para>
+<para>to the trips booked for all 3 features, that is, flight, hotel &amp; car.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes input as total fare of the entire trip</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function returns the discounted fare </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" line="104" column="7" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/total_fare.c" bodystart="170" bodyend="174" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h" declline="104" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This provides the fare for all the trip services offered (flight, hotel and car) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_TOTAL_FARE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_TOTAL_FARE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1af9d65e88882f99b38f681cb099f2a467" kindref="member">total_fare_flight</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_passengers,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_flight,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1aa13a63cbe51dc384f4e160842e3dbc01" kindref="member">total_fare_hotel</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>days,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_hotel,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1ac4ada7d1367cf1ba701375313c72b1ce" kindref="member">total_fare_car</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>days,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price_car,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>booking_id);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1af53403e34ad2e8267fe963fbc1894348" kindref="member">total_fare_trip</ref><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total_flight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total_hotel,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total_car);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1a74dbb2552314e8db23b508b5792e1c35" kindref="member">discount_offer_1</ref><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total_trip);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="total__fare_8h_1a3846021ec2b6ce119539d17674fe79d7" kindref="member">discount_offer_2</ref><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>total_trip);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/total_fare.h"/>
+  </compounddef>
+</doxygen>

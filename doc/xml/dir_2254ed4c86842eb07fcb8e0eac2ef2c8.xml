@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_2254ed4c86842eb07fcb8e0eac2ef2c8" kind="dir">
+    <compoundname>3.20.2</compoundname>
+    <innerdir refid="dir_cb8aebdcbcd7898634ff25bad2892a2f">CompilerIdC</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/cmake-build-debug/CMakeFiles/3.20.2/"/>
+  </compounddef>
+</doxygen>

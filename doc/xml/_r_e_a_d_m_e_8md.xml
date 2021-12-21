@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Group<sp/>3<sp/>-<sp/>Travel<sp/>Agency<sp/>Management<sp/>System</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Table<sp/>of<sp/>Contents</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Team<sp/>Members](#team-members)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Application<sp/>Overview](#application-overview)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[File<sp/>Organization](#file-organization)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Getting<sp/>Started](#getting-started)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Documentation](#documentation)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Team<sp/>Members</highlight></codeline>
+<codeline><highlight class="normal">**Organization:**<sp/>Carleton<sp/>University</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Course:**<sp/>SYSC<sp/>4006<sp/>-<sp/>Introduction<sp/>to<sp/>Systems<sp/>Programming</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Authors:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>Student<sp/><sp/>|<sp/>Github<sp/>ID<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>-------------<sp/>|<sp/>-------------<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>Kavya<sp/>Vellaiyur<sp/>Chellaram<sp/>|<sp/>kavyaram15<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>Ramya<sp/>Thammineni<sp/><sp/>|<sp/>ramyathammineni<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>Sarah<sp/>Imran<sp/>Khan<sp/><sp/>|<sp/><sp/>imsarahkhan<sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Application<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Travel<sp/>agents<sp/>facilitate<sp/>clients<sp/>to<sp/>find<sp/>out<sp/>best<sp/>possible<sp/>travel<sp/>arrangements,<sp/>recommend<sp/>destinations<sp/>and<sp/>make<sp/>arrangements<sp/>for<sp/>the<sp/>hotel<sp/>accommodations,<sp/>car<sp/>rentals,<sp/>transportation,<sp/>and<sp/>tours<sp/>for<sp/>clients.<sp/>The<sp/>purpose<sp/>of<sp/>this<sp/>project<sp/>is<sp/>to<sp/>computerize<sp/>the<sp/>different<sp/>operations<sp/>in<sp/>travel<sp/>agencies<sp/>through<sp/>an<sp/>easy-to-use<sp/>automated<sp/>booking<sp/>system.<sp/></highlight></codeline>
+<codeline><highlight class="normal">Through<sp/>this<sp/>project,<sp/>we<sp/>intend<sp/>to<sp/>develop<sp/>an<sp/>application<sp/>program<sp/>for<sp/>travel<sp/>agencies<sp/>which<sp/>provides<sp/>a<sp/>convenient<sp/>way<sp/>for<sp/>clients<sp/>to<sp/>book<sp/>services<sp/>such<sp/>as<sp/>flights,<sp/>hotel<sp/>accommodation<sp/>and<sp/>rental<sp/>cars.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Users<sp/>will<sp/>be<sp/>able<sp/>to<sp/>signup/login<sp/>into<sp/>the<sp/>portal<sp/>using<sp/>their<sp/>credentials<sp/>and<sp/>can<sp/>log<sp/>out<sp/>of<sp/>the<sp/>system<sp/>once<sp/>their<sp/>needs<sp/>are<sp/>fulfilled.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>View<sp/>a<sp/>list<sp/>of<sp/>packages<sp/>(flight,<sp/>hotel<sp/>accommodation,<sp/>and<sp/>rental<sp/>car)<sp/>along<sp/>with<sp/>the<sp/>cost<sp/>offered<sp/>by<sp/>the<sp/>travel<sp/>agency</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Book<sp/>flight,<sp/>hotel<sp/>accommodation,<sp/>and<sp/>rental<sp/>car<sp/>by<sp/>using<sp/>features<sp/>like<sp/>book<sp/>trip,<sp/>view/print<sp/>trip,<sp/>or<sp/>cancel<sp/>the<sp/>trip.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Users<sp/>will<sp/>be<sp/>offered<sp/>a<sp/>discount<sp/>if<sp/>they<sp/>choose<sp/>more<sp/>than<sp/>one<sp/>type<sp/>of<sp/>booking.<sp/></highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Users<sp/>can<sp/>view<sp/>and<sp/>print<sp/>their<sp/>booked<sp/>trip<sp/>at<sp/>any<sp/>time<sp/>of<sp/>their<sp/>convenience<sp/>using<sp/>their<sp/>booking<sp/>ID.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Users<sp/>can<sp/>cancel<sp/>their<sp/>booked<sp/>trip<sp/>without<sp/>any<sp/>additional<sp/>charges<sp/>using<sp/>their<sp/>booking<sp/>ID.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Detailed<sp/>information<sp/>about<sp/>the<sp/>application<sp/>can<sp/>be<sp/>found<sp/>[here](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>File<sp/>Organization</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>file<sp/>structure<sp/>is<sp/>used<sp/>to<sp/>organize<sp/>files<sp/>for<sp/>this<sp/>application:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>Main<sp/>Folder<sp/>Structure<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Description<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|-----------------------|----------------------------------------------------------------|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/cmake-build-debug`<sp/><sp/>|<sp/>Contains<sp/>the<sp/>files<sp/>created<sp/>after<sp/>executing<sp/>the<sp/>application.<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/include`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Contains<sp/>all<sp/>Header<sp/>files<sp/>used<sp/>in<sp/>the<sp/>application.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/doc`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Contains<sp/>the<sp/>designed<sp/>flowchart<sp/>for<sp/>the<sp/>application.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/html`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Doxygen<sp/>file.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/latex`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Doxygen<sp/>file.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/xml`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Doxygen<sp/>file.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/src`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Contains<sp/>the<sp/>definition<sp/>for<sp/>all<sp/>functions<sp/>-<sp/><sp/>Function<sp/>sources.<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`/test`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Contains<sp/>all<sp/>test<sp/>sources<sp/>and<sp/>required<sp/>data<sp/>for<sp/>testing.<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`.gitignore`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Specifies<sp/>which<sp/>files<sp/>should<sp/>be<sp/>ignored<sp/>by<sp/>git.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`LICENSE`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>License<sp/>of<sp/>the<sp/>application.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>`README.md`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Project&apos;s<sp/>ReadMe<sp/>file.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>Started</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Supported<sp/>Platforms</highlight></codeline>
+<codeline><highlight class="normal">Unix,<sp/>Cygwin<sp/>and<sp/>MacOS.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Installation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Complete<sp/>instructions<sp/>regarding<sp/>installation<sp/>of<sp/>Travel<sp/>Agency<sp/>Management<sp/>System<sp/>can<sp/>be<sp/>found<sp/>here:<sp/>[User<sp/>Documentation](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Compile<sp/>and<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>instructions<sp/>below<sp/>have<sp/>been<sp/>verified<sp/>to<sp/>work<sp/>on<sp/>Windows<sp/>using<sp/>Cygwin<sp/>and<sp/>gcc.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>`Makefile`<sp/>(default)<sp/>Will<sp/>build<sp/>the<sp/>application<sp/>and<sp/>run<sp/>the<sp/>application.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>`make<sp/>clean`<sp/><sp/>Will<sp/>remove<sp/>all<sp/>build<sp/>artifacts.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Run<sp/>Application</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>To<sp/>run<sp/>the<sp/>application<sp/>after<sp/>installation,<sp/>execute<sp/>the<sp/>application<sp/>in<sp/>the<sp/>`cmake-build-debug`<sp/>directory<sp/>with<sp/><sp/>the<sp/>command<sp/>`Project_Program.exe`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Test</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>To<sp/>run<sp/>the<sp/>test<sp/>files,<sp/>execute<sp/>the<sp/>application<sp/>in<sp/>the<sp/>`test`<sp/>directory<sp/>with<sp/>`Program_Test.c`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Documentation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>All<sp/>documentation<sp/>regarding<sp/>this<sp/>application<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>project&apos;s<sp/>GitHub<sp/>repository.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>User<sp/>documentation<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>Github<sp/>repository<sp/>at<sp/>[**Travel<sp/>Agency<sp/>Management<sp/>System<sp/>User<sp/>Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/User-Documentation)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Developer<sp/>documentation<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>Github<sp/>repository<sp/>at<sp/>[**Travel<sp/>Agency<sp/>Management<sp/>System<sp/>Developer<sp/>Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Developer-Documentation)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Doxygen<sp/>documentation<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>Github<sp/>repository<sp/>at<sp/>[**Travel<sp/>Agency<sp/>Management<sp/>System<sp/>Doxygen<sp/>Documentation**](https://github.com/imsarahkhan/Group_3_Travel-Agency-Management-System/wiki/Doxygen-Documentation)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>License<sp/></highlight></codeline>
+<codeline><highlight class="normal">This<sp/>project<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>GPL<sp/>2.0<sp/>License.<sp/></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/README.md"/>
+  </compounddef>
+</doxygen>

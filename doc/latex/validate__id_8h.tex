@@ -1,0 +1,69 @@
+\hypertarget{validate__id_8h}{}\doxysection{validate\+\_\+id.\+h File Reference}
+\label{validate__id_8h}\index{validate\_id.h@{validate\_id.h}}
+
+
+This implements validation of all the trip IDs (route,hotel and car).  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{validate__id_8h_a7eef78a5b579c6e0ad52a89f951f19c9}{validate\+\_\+route\+\_\+id}} (int id)
+\item 
+int \mbox{\hyperlink{validate__id_8h_a705fc4e3c226e1f3d68f0a8ebd712c14}{validate\+\_\+hotel\+\_\+id}} (int id)
+\item 
+int \mbox{\hyperlink{validate__id_8h_af434d44a19264fd86c8240c9912d0195}{validate\+\_\+car\+\_\+id}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This implements validation of all the trip IDs (route,hotel and car). 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{validate__id_8h_af434d44a19264fd86c8240c9912d0195}\label{validate__id_8h_af434d44a19264fd86c8240c9912d0195}} 
+\index{validate\_id.h@{validate\_id.h}!validate\_car\_id@{validate\_car\_id}}
+\index{validate\_car\_id@{validate\_car\_id}!validate\_id.h@{validate\_id.h}}
+\doxysubsubsection{\texorpdfstring{validate\_car\_id()}{validate\_car\_id()}}
+{\footnotesize\ttfamily int validate\+\_\+car\+\_\+id (\begin{DoxyParamCaption}\item[{int}]{car\+\_\+id }\end{DoxyParamCaption})}
+
+This function will validate if the car ID have already been booked or not.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as car ID\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the a temporary variable that stores a value 0 if no user booked that particular car services and any other value indicates it is booked more than once. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{validate__id_8h_a705fc4e3c226e1f3d68f0a8ebd712c14}\label{validate__id_8h_a705fc4e3c226e1f3d68f0a8ebd712c14}} 
+\index{validate\_id.h@{validate\_id.h}!validate\_hotel\_id@{validate\_hotel\_id}}
+\index{validate\_hotel\_id@{validate\_hotel\_id}!validate\_id.h@{validate\_id.h}}
+\doxysubsubsection{\texorpdfstring{validate\_hotel\_id()}{validate\_hotel\_id()}}
+{\footnotesize\ttfamily int validate\+\_\+hotel\+\_\+id (\begin{DoxyParamCaption}\item[{int}]{hotel\+\_\+id }\end{DoxyParamCaption})}
+
+This function will validate if the hotel ID have already been booked or not.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as hotel ID\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns the a temporary variable that stores a value 0 if no user booked that particular hotel and any other value indicates it is booked more than once. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{validate__id_8h_a7eef78a5b579c6e0ad52a89f951f19c9}\label{validate__id_8h_a7eef78a5b579c6e0ad52a89f951f19c9}} 
+\index{validate\_id.h@{validate\_id.h}!validate\_route\_id@{validate\_route\_id}}
+\index{validate\_route\_id@{validate\_route\_id}!validate\_id.h@{validate\_id.h}}
+\doxysubsubsection{\texorpdfstring{validate\_route\_id()}{validate\_route\_id()}}
+{\footnotesize\ttfamily int validate\+\_\+route\+\_\+id (\begin{DoxyParamCaption}\item[{int}]{route\+\_\+id }\end{DoxyParamCaption})}
+
+This function will validate if the route ID for the flights have already been booked or not.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as route ID of flights\\
+\hline
+\mbox{\texttt{ out}}  & {\em This} & function returns a temporary variable that stores a value 0 if no user booked that particular route and any other value indicates it is booked more than once. \\
+\hline
+\end{DoxyParams}

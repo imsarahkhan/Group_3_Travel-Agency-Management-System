@@ -1,0 +1,101 @@
+\hypertarget{individual__route__prices_8c}{}\doxysection{individual\+\_\+route\+\_\+prices.\+c File Reference}
+\label{individual__route__prices_8c}\index{individual\_route\_prices.c@{individual\_route\_prices.c}}
+
+
+This provides the ID and prices for all trip services (flight,hotel and car)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$global\+\_\+variable.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{individual__route__prices_8c_a5559486e5d71a33fb198dc26f5524362}{flight}} (int route\+\_\+id, FILE $\ast$p\+\_\+fptr1)
+\item 
+float \mbox{\hyperlink{individual__route__prices_8c_a8c934b362c241a56ded14354ae2954e2}{hotel}} (int hotel\+\_\+id, FILE $\ast$p\+\_\+fptr2)
+\item 
+float \mbox{\hyperlink{individual__route__prices_8c_a2bd0d76c608b5d38752ddd51b961f011}{car}} (int car\+\_\+id, FILE $\ast$p\+\_\+fptr3)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This provides the ID and prices for all trip services (flight,hotel and car) 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{individual__route__prices_8c_a2bd0d76c608b5d38752ddd51b961f011}\label{individual__route__prices_8c_a2bd0d76c608b5d38752ddd51b961f011}} 
+\index{individual\_route\_prices.c@{individual\_route\_prices.c}!car@{car}}
+\index{car@{car}!individual\_route\_prices.c@{individual\_route\_prices.c}}
+\doxysubsubsection{\texorpdfstring{car()}{car()}}
+{\footnotesize\ttfamily float car (\begin{DoxyParamCaption}\item[{int}]{car\+\_\+id,  }\item[{FILE $\ast$}]{p\+\_\+fptr3 }\end{DoxyParamCaption})}
+
+This function takes the car route ID shown in the \mbox{\hyperlink{view__brochure_8h_a0968360f971a8064a3b94928e3e03d0c}{view\+\_\+brochure()}}
+
+and returns the necessary prices for two rental car services
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as car route ID and file pointer to write\\
+\hline
+\end{DoxyParams}
+details to the file created
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the price for each rental car services\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 0 if invalid car ID and or else returns car price 
+\end{DoxyReturn}
+\mbox{\Hypertarget{individual__route__prices_8c_a5559486e5d71a33fb198dc26f5524362}\label{individual__route__prices_8c_a5559486e5d71a33fb198dc26f5524362}} 
+\index{individual\_route\_prices.c@{individual\_route\_prices.c}!flight@{flight}}
+\index{flight@{flight}!individual\_route\_prices.c@{individual\_route\_prices.c}}
+\doxysubsubsection{\texorpdfstring{flight()}{flight()}}
+{\footnotesize\ttfamily float flight (\begin{DoxyParamCaption}\item[{int}]{route\+\_\+id,  }\item[{FILE $\ast$}]{p\+\_\+fptr1 }\end{DoxyParamCaption})}
+
+This function takes the route ID (flights) shown in the \mbox{\hyperlink{view__brochure_8h_a0968360f971a8064a3b94928e3e03d0c}{view\+\_\+brochure()}}
+
+and returns the necessary prices for each flight trips
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as route ID associated with a flight routes and file pointer to write\\
+\hline
+\end{DoxyParams}
+details to the file created
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the price for each flight trip\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 if invalid route ID or else returns flight price 
+\end{DoxyReturn}
+\mbox{\Hypertarget{individual__route__prices_8c_a8c934b362c241a56ded14354ae2954e2}\label{individual__route__prices_8c_a8c934b362c241a56ded14354ae2954e2}} 
+\index{individual\_route\_prices.c@{individual\_route\_prices.c}!hotel@{hotel}}
+\index{hotel@{hotel}!individual\_route\_prices.c@{individual\_route\_prices.c}}
+\doxysubsubsection{\texorpdfstring{hotel()}{hotel()}}
+{\footnotesize\ttfamily float hotel (\begin{DoxyParamCaption}\item[{int}]{hotel\+\_\+id,  }\item[{FILE $\ast$}]{p\+\_\+fptr2 }\end{DoxyParamCaption})}
+
+This function takes the hotel ID shown in the \mbox{\hyperlink{view__brochure_8h_a0968360f971a8064a3b94928e3e03d0c}{view\+\_\+brochure()}}
+
+and returns the necessary prices for each hotel accommodation
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes input as hotel ID and file pointer to write the\\
+\hline
+\end{DoxyParams}
+details to the file created
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function returns the price for each hotel accommodation\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 if invalid hotel ID or else returns hotel price 
+\end{DoxyReturn}

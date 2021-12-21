@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="cancel__trip_8h" kind="file" language="C++">
+    <compoundname>cancel_trip.h</compoundname>
+    <includedby refid="main__menu_8c" local="yes">main_menu.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>cancel_trip.h</label>
+        <link refid="cancel__trip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>main_menu.c</label>
+        <link refid="main__menu_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cancel__trip_8h_1a5d39b64292e477487712847a22045d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cancel_trip</definition>
+        <argsstring>()</argsstring>
+        <name>cancel_trip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will ask the user to enter the booking ID for which the trip needs to be cancelled.</para>
+<para>The function will delete the entry and inform the user of the cancellation without any cancellation fee.</para>
+<para>The amount will be refunded is printed on the command line.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">NONE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/cancel_trip.h" line="31" column="6" bodyfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/src/cancel_trip.c" bodystart="31" bodyend="48" declfile="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/cancel_trip.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This implements cancelling of the booked trip. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_CANCEL_TRIP_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CANCEL_TRIP_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cancel__trip_8h_1a5d39b64292e477487712847a22045d45" kindref="member">cancel_trip</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/khans/OneDrive/Documents/GitHub/Group_3_Travel-Agency-Management-System/include/cancel_trip.h"/>
+  </compounddef>
+</doxygen>
